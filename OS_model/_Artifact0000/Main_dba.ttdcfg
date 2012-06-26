@@ -1,0 +1,11 @@
+[FileFormatVersion] 2
+[Messages]
+[Breakpoints]
+[SQDTraceLevels]
+Main 1
+env 1
+SQDTraceOnSymbolLevel 1
+[ExecutionTrackingLevels]
+Main 1
+env 1
+[Watches]

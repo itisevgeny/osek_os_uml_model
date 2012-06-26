@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<u2 OMVersion="3.5" StorageVersion="4" xmlns="http://www.telelogic.com/tau">
+<Package Name="Result of C generation">
+<cOwnedMember>
+<Artifact Name="Main.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="28">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:714hgIhDJoFLC1GZbEoEJVhV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="48">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:TEvGKIhdW75LKzQgwEH4-zZE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="72">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:0d--iE-oh1iLkDAcZEuFSvRE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="110">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:714hgIhDJoFLC1GZbEoEJVhV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="150">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:TEvGKIhdW75LKzQgwEH4-zZE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="199">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:0d--iE-oh1iLkDAcZEuFSvRE"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Main.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Main_cod.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main_cod.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Main_cod.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\Main_cod.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ctypes.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ctypes.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ctypes.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ExtraOps.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ExtraOps.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\U2ExtraOps.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="MainApplicationPackage.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="16">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:*dMmOEwBTPALSmtgnIJJbPVE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="25">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:714hgIhDJoFLC1GZbEoEJVhV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="35">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:0d--iE-oh1iLkDAcZEuFSvRE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="72">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:fbaNtEfxZVDLA8ia1El5WCSV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="91">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:zLJmuLMb565LyiTjqLumy8xE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="100">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:m3INILyJJYSLx3akAE1Wqy8E"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="137">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:yW*q7EFQmOBLMGOfKVXZ0gPV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="156">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:pGZKCIFXr5DL4eifbLJFQWwL"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="165">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:m3INILyJJYSLx3akAE1Wqy8E"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="174">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:yW*q7EFQmOBLMGOfKVXZ0gPV"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="MainApplicationPackage.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="32">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:*dMmOEwBTPALSmtgnIJJbPVE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="41">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:714hgIhDJoFLC1GZbEoEJVhV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="54">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:0d--iE-oh1iLkDAcZEuFSvRE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="185">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:x-YP*VbvncELHFRY3EMz2UJI"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="216">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:W3Ng7EioSy0LhWxW1LdidWuE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="227">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:zLJmuLMb565LyiTjqLumy8xE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="249">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:fbaNtEfxZVDLA8ia1El5WCSV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="334">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:@NO@GUID"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="344">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:m3INILyJJYSLx3akAE1Wqy8E"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="468">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:m3INILyJJYSLx3akAE1Wqy8E"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="541">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:m3INILyJJYSLx3akAE1Wqy8E"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="564">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:yW*q7EFQmOBLMGOfKVXZ0gPV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="642">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:hMh3UIt4xiDL0YZhfVaIUqIE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="701">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:pGZKCIFXr5DL4eifbLJFQWwL"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="722">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:yW*q7EFQmOBLMGOfKVXZ0gPV"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="MainApplicationPackage.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Users\evgeny\Documents\My Projects\OS_model\_Artifact0000\MainApplicationPackage.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+</cOwnedMember>
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppAppGen@GenerationResult"/>
+</InstanceExpr>
+</cStereotypeInstance>
+</Package>
+</u2>

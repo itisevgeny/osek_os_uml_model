@@ -1,0 +1,93 @@
+/*#include 'u2ctypes.sdl'*/
+/*#include 'u2ExtraOps.pr'*/
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#*dMmOEwBTPALSmtgnIJJbPVE")*/
+package MainApplicationPackage;
+    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#714hgIhDJoFLC1GZbEoEJVhV")*/
+    block type Main;
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#0ScP7EhON7VLP9xgvVbSUB3L")*/
+        gate @implicit_port_2
+            out with ( <<package MainApplicationPackage >> @interface_oppp0 );
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#TEvGKIhdW75LKzQgwEH4-zZE")*/
+        process O : OS;
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#0d--iE-oh1iLkDAcZEuFSvRE")*/
+        process @part__@implicit_process_0 /*#BLOCKP*/ : @implicit_process_0;
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#0d--iE-oh1iLkDAcZEuFSvRE")*/
+        process type @implicit_process_0;
+        signalset;
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#DPXeXEzoRlvLg6wkxIMLZlVL")*/
+            gate @implicit_port_1
+                out with ( <<package MainApplicationPackage >> @interface_oppp0 );
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#fbaNtEfxZVDLA8ia1El5WCSV")*/
+            procedure op;
+                /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#IPL7REF8mEBLh0pdsIX1GgCV")*/
+                start;
+                    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#@NO@GUID")*/
+                    task /*#CODE
+                    COMMENT( Extra dummy statement 'if (true)' is generated to enable stepping to informal code in ModelVerifier )
+                    xInformalOperator();
+                    */ '';
+                    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#@NO@GUID")*/
+                    return;
+                
+            endprocedure;
+            
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#9FqrPERSFkFLD7wXNIkYabzI")*/
+            start virtual;
+                /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#bKfh5EVNkLDL1vsYVITe8f-E")*/
+                task
+                {
+                    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#0d-vbE2euuvLx0r7gEyKvqRE")*/
+                    
+                    {
+                        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#x-YP*VbvncELHFRY3EMz2UJI")*/
+                        call oppp to O;
+                    };
+                };
+                /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#W3Ng7EioSy0LhWxW1LdidWuE")*/
+                nextstate st;
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#zLJmuLMb565LyiTjqLumy8xE")*/
+            state st;
+            
+        endprocess type;
+        
+    endblock type;
+    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#m3INILyJJYSLx3akAE1Wqy8E")*/
+    process type OS;
+    signalset;
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#GwgUwLus39CLSW0YYInH2h-V")*/
+        gate @implicit_port_0
+            in with ( <<package MainApplicationPackage >> @interface_oppp0 );
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#yW*q7EFQmOBLMGOfKVXZ0gPV")*/
+        exported as oppp procedure @exported_procedure_oppp /*#SNAME 'oppp'*/;
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#m4PiwIZ*38vLjWskgLCr6zOL")*/
+            start;
+                /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#hMh3UIt4xiDL0YZhfVaIUqIE")*/
+                nextstate cc;
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#pGZKCIFXr5DL4eifbLJFQWwL")*/
+            state cc;
+            
+        endprocedure;
+        
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#m3INILyJJYSLx3akAE1Wqy8E")*/
+        start;
+            /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#m3INILyJJYSLx3akAE1Wqy8E")*/
+            nextstate wait_for_calls;
+        /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#m3INILyJJYSLx3akAE1Wqy8E")*/
+        state wait_for_calls;
+        
+    endprocess type;
+    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#yW*q7EFQmOBLMGOfKVXZ0gPV")*/
+    remote procedure oppp;
+    /*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#yW*q7EFQmOBLMGOfKVXZ0gPV")*/
+    signallist @interface_oppp0 = oppp;
+    
+endpackage;
+
+
+use MainApplicationPackage;
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Users\evgeny\Documents\My Projects\OS_model\MainApplication.u2#714hgIhDJoFLC1GZbEoEJVhV")*/
+system Main : Main;
