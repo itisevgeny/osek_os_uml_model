@@ -24,12 +24,8 @@ TAU Developer .sym file, version 1.0
 2 SYNTYPE Natural z_Predefined_Y4_ Integer z_Predefined_H3_  #SDTREF(TEXT,"C:\\Program Files\\IBM\\Rational\\TAU\\4.3\\addins\\sdlkernels\\predef.sdl",159,9)
 2 SYNTYPE hexadecimal z_Predefined_Y5_ Integer z_Predefined_H3_  #SDTREF(TEXT,"C:\\Program Files\\IBM\\Rational\\TAU\\4.3\\addins\\sdlkernels\\predef.sdl",161,9)
 
-1 BLOCK Class2  z_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,8)") : Class2 z_App_Z0_
-2 GATE @implicit_port_2  z_App_Z0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#9wXJWV5SXrDL-fbZVLsroFOL|pos(1,14)")
-2 PROCESS OS z_App_Z0P0_ 0 -1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#xxwHGIzQcZvLSqxkDICtKVSE|pos(1,17)") : Class1 z_osek_T0_
-3 GATE @implicit_port_0  z_osek_T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#5XbWgLgTbVlLeiecsV3VAvbL|pos(1,14)")
-2 PROCESS Class2 z_App_Z0P1_ 1 -1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,17)") : @implicit_process_0 z_App_Z0T0_
-3 GATE @implicit_port_1  z_App_Z0T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#T5TjNEqXTu5LXcahwEWv9kIV|pos(1,18)")
+1 PROCESS Class2  z_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,8)") : Class2 z_App_T0_
+2 GATE @implicit_port_1  z_App_T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#rJ58mLKBK-DLZd36bIm1ePGE|pos(1,14)")
 
 1 PACKAGE U2ctypes  z_U2ctypes__ #SDTREF(TEXT,"C:\\Program Files\\IBM\\Rational\\TAU\\4.3\\addins\\sdlkernels\\ADT\\u2ctypes.sdl",15,9)
 2 NEWTYPE ptr_void z_U2ctypes_H0_ USERDEF  #SDTREF(TEXT,"C:\\Program Files\\IBM\\Rational\\TAU\\4.3\\addins\\sdlkernels\\ADT\\BasicCTypes.pr",155,9)
@@ -53,24 +49,21 @@ TAU Developer .sym file, version 1.0
 
 1 PACKAGE osek  z_osek__ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#qncAcEy-gblLR3IYQLtk1RJE|pos(1,9)")
 2 PROCESS_TYPE Class1  z_osek_T0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I|pos(1,18)")
-3 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,9)")
+3 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdr57ILPUiiLXN-bnEnX4LwE|pos(1,9)")
 3 PROCEDURE response  z_osek_T0O0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,40)")
 4 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#CCfFCEaSSqiL5AihhL7*zh2V|pos(1,13)")
-4 STATE waitingResponse #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V|pos(1,19)")
-3 STATE wait_for_calls #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,15)")
-3 GATE @implicit_port_0  z_osek_T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#5XbWgLgTbVlLeiecsV3VAvbL|pos(1,14)")
+4 STATE w #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V|pos(1,19)")
+3 STATE waiting #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL|pos(1,15)")
+3 GATE @implicit_port_0  z_osek_T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Q4Fq0VwPQVCLGHfcELfk2SlE|pos(1,14)")
 2 SIGNAL pCALL_response 1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,22)")
 2 SIGNAL pREPLY_response 1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,22)")
 
 1 PACKAGE App  z_App__ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#GH3ptI02T75L8NkfuLfWX0KE|pos(1,9)")
-2 BLOCK_TYPE Class2  z_App_Z0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,16)")
-3 GATE @implicit_port_2  z_App_Z0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#9wXJWV5SXrDL-fbZVLsroFOL|pos(1,14)")
-3 PROCESS_TYPE @implicit_process_0  z_App_Z0T0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,22)")
-4 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,13)")
-4 PROCEDURE find  z_App_Z0T0O0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,23)")
-5 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,17)")
-5 STATE waiting #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,23)")
-4 STATE waitOsek #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,19)")
-4 GATE @implicit_port_1  z_App_Z0T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#T5TjNEqXTu5LXcahwEWv9kIV|pos(1,18)")
-3 PROCESS OS z_App_Z0P0_ 2 -1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#xxwHGIzQcZvLSqxkDICtKVSE|pos(1,17)") : Class1 z_osek_T0_
-3 PROCESS @part__@implicit_process_0 z_App_Z0P1_ 3 -1  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,17)") : @implicit_process_0 z_App_Z0T0_
+2 PROCESS_TYPE Class2  z_App_T0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,18)")
+3 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,9)")
+3 PROCEDURE find  z_App_T0O0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,19)")
+4 STATE start #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,13)")
+4 STATE waiting #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,19)")
+3 STATE waitOsek #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,15)")
+3 DCL OS Pid z_Predefined_H5_  #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#oSkOcEDwmGELMKBYMVxF0U1L|pos(1,13)")
+3 GATE @implicit_port_1  z_App_T0G0_ #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#rJ58mLKBK-DLZd36bIm1ePGE|pos(1,14)")

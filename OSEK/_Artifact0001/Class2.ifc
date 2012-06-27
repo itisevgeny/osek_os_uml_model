@@ -29,10 +29,10 @@ extern XCONST struct xSignalIdStruct ySigR_pREPLY_z_osek_I0_response;
 
 /*--------------------------- CHANNELS ----------------------------*/
 #ifndef XOPTCHAN
-extern XCONST struct xChannelIdStruct yChaR_z0_implicit_port_2;
-extern XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_2;
-#define xIN_cha_implicit_port_2 (&yChaR_z0_implicit_port_2)
-#define xOUT_cha_implicit_port_2 (&yChaRR_z0_implicit_port_2)
+extern XCONST struct xChannelIdStruct yChaR_z0_implicit_port_1;
+extern XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_1;
+#define xIN_cha_implicit_port_1 (&yChaR_z0_implicit_port_1)
+#define xOUT_cha_implicit_port_1 (&yChaRR_z0_implicit_port_1)
 #endif
 
 #endif

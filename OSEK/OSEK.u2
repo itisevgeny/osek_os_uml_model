@@ -2,7 +2,7 @@
 <u2 OMVersion="3.7" StorageVersion="4" ToolVersion="4.3.0.0.13660">
 <Resource Guid="bkjqlEHNjaALsedZILbHw7WI">
 <cHiddenStereotypeInstance>
-<InstanceExpr Guid="poTZmI*5lIDLFCN9aEkDCj0V">
+<InstanceExpr Guid="dCpbUVgpM3CLQrKdHEdF4DoE">
 <cExpression>
 <BinaryExpr>
 <rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
@@ -30,7 +30,7 @@
 </cExpression>
 <rInstanceOf R="uid:@Predefined@modelDependency"/>
 </InstanceExpr>
-<InstanceExpr Guid="WkVPRLpbkcELoHLhmLWCt2AV">
+<InstanceExpr Guid="D*1BSE9TjkiL*rGgzVie666V">
 <cExpression>
 <BinaryExpr>
 <rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
@@ -58,7 +58,7 @@
 </cExpression>
 <rInstanceOf R="uid:@Predefined@modelDependency"/>
 </InstanceExpr>
-<InstanceExpr Guid="866aAIcAjZDL1c*WpLd2doNI">
+<InstanceExpr Guid="-vsuAEQbLDvLigKh7LhnoKZI">
 <cExpression>
 <BinaryExpr>
 <rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
@@ -86,7 +86,7 @@
 </cExpression>
 <rInstanceOf R="uid:@Predefined@modelDependency"/>
 </InstanceExpr>
-<InstanceExpr Guid="svEA9E-qJVCLGsngBVj1dHaE">
+<InstanceExpr Guid="d6MV*EJeE0ELExjgsLqQmbNI">
 <cExpression>
 <BinaryExpr>
 <rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
@@ -114,40 +114,12 @@
 </cExpression>
 <rInstanceOf R="uid:@Predefined@modelDependency"/>
 </InstanceExpr>
-<InstanceExpr Guid="Uklc-ET-QylLGMnWFEAaTw-E">
+<InstanceExpr Guid="FqW4TVNdCTILG4WclI9EDX0I">
 <cExpression>
 <BinaryExpr>
 <rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
 <cRightOperand>
 <CharstringValue ValueString="urn:u2:etc\TTDPredefinedStereotypes.u2">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="strUri">
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="true">
-<rDefinition R="uid:@Predefined@Boolean@true"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="isLibrary">
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@modelDependency"/>
-</InstanceExpr>
-<InstanceExpr Guid="OJOsxIB6D9lLSK2gxI2JxWnL">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="urn:u2:etc\TTDStereotypeDetails.u2">
 </CharstringValue>
 </cRightOperand>
 <cLeftOperand>
@@ -290,9 +262,69 @@
 <cDiagramElement>
 <FrameSymbol Guid="VwFDhIqdAOeLoX476EXQfxTE" Position="100 100" Size="1880 2760">
 </FrameSymbol>
+<StartSymbol Guid="MfcJYEXhhAALgfZ9YI29XvKE" Position="740 440" Size="40 40">
+<rStartTransition R="uid:hdr57ILPUiiLXN-bnEnX4LwE"/>
+</StartSymbol>
+<StateSymbol Text="waiting" Guid="8S-bHL0baIiLqUbcLENml2YI" Position="660 720" Size="160 80" Autosize="true">
+<rMultiState R="uid:KoCcuLAQ6dDLIXvjwEHVlnoL"/>
+</StateSymbol>
+<FlowLine Guid="vXKZiEp2MSeL5q-ZiVhEE6fI" SegmentPoints="760 460 760 600 740 600 740 760">
+<cStereotypeInstance>
+<InstanceExpr Guid="0qlktL5zOpvLsQ9kGI3Kr-uL">
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<Ident Name="AutomaticAssign">
+<rDefinition R="uid:ud4RrLD7TmlLYSF7WEdq4vHL"/>
+</Ident>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="shape">
+<rDefinition R="uid:rlPkmLAr1GDLOxGcmE*Y4*FV"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rInstanceOf R="uid:@TTDLineStyles@automaticLineStyle"/>
+</InstanceExpr>
+</cStereotypeInstance>
+<rSrc R="uid:MfcJYEXhhAALgfZ9YI29XvKE"/>
+<rDst R="uid:8S-bHL0baIiLqUbcLENml2YI"/>
+</FlowLine>
 </cDiagramElement>
 </StatechartDiagram>
 </cDiagram>
+<cTransition>
+<StartTransition Guid="hdr57ILPUiiLXN-bnEnX4LwE">
+<cAction>
+<CompoundAction Guid="h*pOKIvE7OiLAuPa3Vsoj6-E">
+<cAction>
+<NextStateAction Guid="YrFKHL8jZdeLCFccyIRMcpmI">
+<rState>
+<Ident Name="waiting">
+<rDefinition R="uid:*F*GDI271KvLeSQheE6bGzcE"/>
+</Ident>
+</rState>
+</NextStateAction>
+</cAction>
+</CompoundAction>
+</cAction>
+</StartTransition>
+</cTransition>
+<cState>
+<State Guid="*F*GDI271KvLeSQheE6bGzcE" Name="waiting">
+</State>
+</cState>
+<cMultiState>
+<MultiState Guid="KoCcuLAQ6dDLIXvjwEHVlnoL">
+<rIncluded R="uid:*F*GDI271KvLeSQheE6bGzcE"/>
+</MultiState>
+</cMultiState>
 </SimpleStateMachine>
 </cInlineMethod>
 </StateMachine>
@@ -388,7 +420,7 @@
 <StartSymbol Guid="xRe6LEWLYJeLdzQk9Er3d04E" Position="660 480" Size="40 40">
 <rStartTransition R="uid:CCfFCEaSSqiL5AihhL7*zh2V"/>
 </StartSymbol>
-<StateSymbol Text="waitingResponse" Guid="0C1-rVR1IxDLtjXWXIQCs6WE" Position="540 620" Size="320 80" Autosize="true">
+<StateSymbol Text="w" Guid="0C1-rVR1IxDLtjXWXIQCs6WE" Position="640 620" Size="120 80" Autosize="true">
 <rMultiState R="uid:hdpcUVaVgrALkG8aHVLtzR1V"/>
 </StateSymbol>
 <FlowLine Guid="Uprm*IOYAZILe*j7TLEeQZhI" SegmentPoints="680 500 680 580 700 580 700 660">
@@ -436,7 +468,7 @@
 </StartTransition>
 </cTransition>
 <cState>
-<State Guid="sYchsITCMWBLfslXtL1cGsPE" Name="waitingResponse">
+<State Guid="sYchsITCMWBLfslXtL1cGsPE" Name="w">
 </State>
 </cState>
 <cMultiState>
@@ -578,603 +610,6 @@
 <rDst R="uid:pB7XuLijZ4EL9r3bAVvYmRII"/>
 <rRelationship R="uid:G5-9uIi4sRCLVZwcJEaKnkbV"/>
 </DependencyLine>
-</cDiagramElement>
-</ClassDiagram>
-<ClassDiagram Guid="75GAtITRxaFL5n8agEqKk31I" Name="MainDiagram" Size="2099 2969">
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="0QMd3LLHALVLlJ99qVbHg4mE">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="Tahoma">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="name">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@name"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="9">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="points">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@points"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="true">
-<rDefinition R="uid:@Predefined@Boolean@true"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="bold">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@bold"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@presentationFont"/>
-</InstanceExpr>
-<InstanceExpr Guid="MKAEAVjyNeSLw7CZgEWEfhaE">
-<rInstanceOf R="uid:@TTDLineStyles@diagramAutosizing"/>
-</InstanceExpr>
-<InstanceExpr Guid="3AB*TLVrTqLLrlj7-IAKOSJI">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="16773875">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="color">
-<rDefinition R="uid:@TTDLineStyles@symbolColor@color"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@symbolColor"/>
-</InstanceExpr>
-<InstanceExpr Guid="eTFL5E0yl5ELIoC6sI07yu9I">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="1">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="horizontalMargin">
-<rDefinition R="uid:18KMeLwnOieLAG7jBI8QjjmV"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@textMargins"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-<cDiagramElement>
-<FrameSymbol Guid="tlfYoL*ruMVLOYwYqIo6IAEI" Position="100 100" Size="1880 2760">
-</FrameSymbol>
-<ClassSymbol Guid="Q4RM*IjIBclLb3G7SLte-zHE" Position="380 420" Size="140 140" Autosize="true" Text="Class2">
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="qjNqyV1gSIVLD1i7lIRE8JwL">
-<rInstanceOf R="uid:@TTDStereotypeDetails@NoWordWrap"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-<rDefinition R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
-<cCompartment>
-<Compartment Guid="yND02EmdOCDLC7Ag1ExA1cYV">
-<cStereotypeInstance>
-<InstanceExpr Guid="B7UScIhTJ9eLojU7bI6RJfeV">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<ListExpr>
-<cExpression>
-<InstanceExpr Guid="NPFhKEPm4TFLrMSZxE38EBnV">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="Attribute">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentFilter@MetaclassFilter@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter@MetaclassFilter"/>
-</InstanceExpr>
-</cExpression>
-</ListExpr>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="filters">
-<rDefinition R="uid:@Predefined@compartmentFilter@filters"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter"/>
-</InstanceExpr>
-<InstanceExpr Guid="mqRWjLJQxTlLVQ0cyVuJFxxL">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="AttributeLabel">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentLabelType@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentLabelType"/>
-</InstanceExpr>
-</cStereotypeInstance>
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="cjcieLdxj-iLKaZhJVSlQSuI">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="Tahoma">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="name">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@name"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="8">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="points">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@points"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="false">
-<rDefinition R="uid:@Predefined@Boolean@false"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="bold">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@bold"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@presentationFont"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-</Compartment>
-<Compartment Guid="Ge9QWLAxxSLL5kaY4L2CvHsE">
-<cStereotypeInstance>
-<InstanceExpr Guid="pJ2NuIA7tmBLVUR95Vab0h4V">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<ListExpr>
-<cExpression>
-<InstanceExpr Guid="izBiOLEUHfeLIbHX*EqqHVMI">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="Operation">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentFilter@MetaclassFilter@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter@MetaclassFilter"/>
-</InstanceExpr>
-</cExpression>
-</ListExpr>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="filters">
-<rDefinition R="uid:@Predefined@compartmentFilter@filters"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter"/>
-</InstanceExpr>
-<InstanceExpr Guid="BWlkZE-g*qeLUulY3ELOBdWV">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="OperationLabel">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentLabelType@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentLabelType"/>
-</InstanceExpr>
-</cStereotypeInstance>
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="8rtAdEh1165L5M47wVL8xLQV">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="Tahoma">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="name">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@name"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="8">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="points">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@points"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="false">
-<rDefinition R="uid:@Predefined@Boolean@false"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="bold">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@bold"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@presentationFont"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-</Compartment>
-</cCompartment>
-</ClassSymbol>
-<ClassSymbol Guid="4RVc6ERkxilLPdY6BEcwdJKL" Position="880 420" Size="140 140" Autosize="true" Text="Class1">
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="cS-lpEIpFXiLPekYEVTR9IXV">
-<rInstanceOf R="uid:@TTDStereotypeDetails@NoWordWrap"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-<rDefinition R="uid:mhocSLnd7cSLV0eY7EFyCJ7I"/>
-<cCompartment>
-<Compartment Guid="5gEuxV2Vt0eL8sBXOVK3f*KV">
-<cStereotypeInstance>
-<InstanceExpr Guid="fCOHDIGTxIvL6P1fLLtnkeII">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<ListExpr>
-<cExpression>
-<InstanceExpr Guid="wIir3E-PagvLDYcWyE7*AZPV">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="Attribute">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentFilter@MetaclassFilter@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter@MetaclassFilter"/>
-</InstanceExpr>
-</cExpression>
-</ListExpr>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="filters">
-<rDefinition R="uid:@Predefined@compartmentFilter@filters"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter"/>
-</InstanceExpr>
-<InstanceExpr Guid="VLQPQICZv2iL9lW9TEzbx8OI">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="AttributeLabel">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentLabelType@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentLabelType"/>
-</InstanceExpr>
-</cStereotypeInstance>
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="QPxKPVXqPpILqeEW9E2vXISV">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="Tahoma">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="name">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@name"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="8">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="points">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@points"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="false">
-<rDefinition R="uid:@Predefined@Boolean@false"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="bold">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@bold"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@presentationFont"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-</Compartment>
-<Compartment Guid="5Zme2E*YASDL4aGgvEQiY71L">
-<cStereotypeInstance>
-<InstanceExpr Guid="gcqZIE9clWvLpOnh*I9hRQsL">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<ListExpr>
-<cExpression>
-<InstanceExpr Guid="GKGVXIzfbwFL1-ChoIUFRvHE">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="Operation">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentFilter@MetaclassFilter@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter@MetaclassFilter"/>
-</InstanceExpr>
-</cExpression>
-</ListExpr>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="filters">
-<rDefinition R="uid:@Predefined@compartmentFilter@filters"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentFilter"/>
-</InstanceExpr>
-<InstanceExpr Guid="q2D9aEZ-gFiLEmA9gVCx765I">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<CharstringValue ValueString="OperationLabel">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="metaClass">
-<rDefinition R="uid:@Predefined@compartmentLabelType@metaClass"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@Predefined@compartmentLabelType"/>
-</InstanceExpr>
-</cStereotypeInstance>
-<cHiddenStereotypeInstance>
-<InstanceExpr Guid="cqjMFIc8IBDLdh7h2LVWxiiI">
-<cExpression>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
-<cRightOperand>
-<CharstringValue ValueString="Tahoma">
-</CharstringValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="name">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@name"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-<cRightOperand>
-<IntegerValue ValueString="8">
-</IntegerValue>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="points">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@points"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-<BinaryExpr>
-<rOperation R="uid:@Predefined@Boolean@=@Boolean@Boolean@Boolean"/>
-<cRightOperand>
-<Ident Name="false">
-<rDefinition R="uid:@Predefined@Boolean@false"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="bold">
-<rDefinition R="uid:@TTDLineStyles@presentationFont@bold"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@presentationFont"/>
-</InstanceExpr>
-</cHiddenStereotypeInstance>
-</Compartment>
-</cCompartment>
-</ClassSymbol>
-<AssociationLine Guid="AwNsmEkFhxDL-w7dpExuwHeE" SegmentPoints="520 500 880 500">
-<cStereotypeInstance>
-<InstanceExpr Guid="N06MYEQfY9eLBF9d0LTkRiaE">
-<cExpression>
-<BinaryExpr>
-<rOperation>
-<Ident Name="=">
-<rDefinition R="uid:@Predefined@Integer@=@Integer@Integer@Integer"/>
-</Ident>
-</rOperation>
-<cRightOperand>
-<Ident Name="AutomaticAssign">
-<rDefinition R="uid:ud4RrLD7TmlLYSF7WEdq4vHL"/>
-</Ident>
-</cRightOperand>
-<cLeftOperand>
-<Ident Name="shape">
-<rDefinition R="uid:rlPkmLAr1GDLOxGcmE*Y4*FV"/>
-</Ident>
-</cLeftOperand>
-</BinaryExpr>
-</cExpression>
-<rInstanceOf R="uid:@TTDLineStyles@automaticLineStyle"/>
-</InstanceExpr>
-</cStereotypeInstance>
-<rSrc R="uid:Q4RM*IjIBclLb3G7SLte-zHE"/>
-<rDst R="uid:4RVc6ERkxilLPdY6BEcwdJKL"/>
-<rSource R="uid:xxwHGIzQcZvLSqxkDICtKVSE"/>
-<cSrcRoleLabel>
-<AttributeLabel Guid="ZMPLmIaeAReLv78gAVjWAKPE" Text="OS">
-<rDefinition R="uid:xxwHGIzQcZvLSqxkDICtKVSE"/>
-</AttributeLabel>
-</cSrcRoleLabel>
-<cSrcMultiplicityLabel>
-<MultiplicityLabel Guid="OndvcIBBILvLG3WYvLeT3rFI">
-</MultiplicityLabel>
-</cSrcMultiplicityLabel>
-</AssociationLine>
 </cDiagramElement>
 </ClassDiagram>
 </cDiagram>
@@ -1518,7 +953,7 @@
 <StartSymbol Guid="4okfGE7-X5DL*bCkbLdx1ACL" Position="680 240" Size="40 40">
 <rStartTransition R="uid:4eU8ZEIKYoVLrthgyVFgywpI"/>
 </StartSymbol>
-<TaskSymbol Text="OS.response();" Guid="-4A1aI-6W3FLKqok8IQP-trI" Position="580 480" Size="320 80" Autosize="true">
+<TaskSymbol Text="//Class1 cl=new Class1();&#x0A;//cl.response();&#x0A;OS.response();" Guid="-4A1aI-6W3FLKqok8IQP-trI" Position="500 480" Size="480 140" Autosize="true">
 <cHiddenStereotypeInstance>
 <InstanceExpr Guid="HAN7MVxMSoIL1snk6VQLB2HL">
 <cExpression>
@@ -1565,7 +1000,7 @@
 </cHiddenStereotypeInstance>
 <rCompoundAction R="uid:J10V4L3MwsELJ*R6MIUlPnjI"/>
 </TaskSymbol>
-<FlowLine Guid="OjotNLE6aMALQqrYzE1-E3zE" SegmentPoints="700 260 700 380 740 380 740 520">
+<FlowLine Guid="OjotNLE6aMALQqrYzE1-E3zE" SegmentPoints="700 260 700 380 740 380 740 550">
 <cStereotypeInstance>
 <InstanceExpr Guid="BHih2Et8QsLLC63WuIXtw3FE">
 <cExpression>
@@ -1596,7 +1031,7 @@
 <StateSymbol Text="waiting" Guid="pIwmhVi6D2LLZCzZ5L0hbS0L" Position="760 720" Size="160 80" Autosize="true">
 <rMultiState R="uid:UnImyLbmEg5LNqUhDLRgO*OV"/>
 </StateSymbol>
-<FlowLine Guid="XjMXzETcnaDLKqvY3IJ0ABML" SegmentPoints="740 520 740 660 840 660 840 760">
+<FlowLine Guid="XjMXzETcnaDLKqvY3IJ0ABML" SegmentPoints="740 550 740 700 840 700 840 760">
 <cStereotypeInstance>
 <InstanceExpr Guid="GiYa7L5K7XDL9AyX2IGXi9QV">
 <cExpression>
@@ -1646,7 +1081,7 @@
 </rCalled>
 <cTo>
 <Ident Name="OS">
-<rDefinition R="uid:xxwHGIzQcZvLSqxkDICtKVSE"/>
+<rDefinition R="uid:oSkOcEDwmGELMKBYMVxF0U1L"/>
 </Ident>
 </cTo>
 </CallExpr>
@@ -1680,7 +1115,7 @@
 </SimpleStateMachine>
 </cInlineMethod>
 </StateMachine>
-<Attribute Guid="xxwHGIzQcZvLSqxkDICtKVSE" Name="OS" Aggregation="AkComposite">
+<Attribute Guid="oSkOcEDwmGELMKBYMVxF0U1L" Name="OS">
 <rType>
 <Ident Name="Class1">
 <rDefinition R="uid:mhocSLnd7cSLV0eY7EFyCJ7I"/>
@@ -1689,6 +1124,50 @@
 </Attribute>
 </cOwnedMember>
 </Class>
+<Artifact Guid="NusTwIJ2xTVLRW6WbV7b1AOL" Name="Artifact0002">
+<cStereotypeInstance>
+<InstanceExpr Guid="FHpFxVZAsBBLMJCbPEHjNOhE">
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Any@=@Any@Any@Any"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<InstanceExpr Guid="M2yw5EZWvHlLJk-ZiIdVFFZI">
+<rInstanceOf>
+<Ident Name="CodeGenerationProperties">
+<rDefinition R="uid:uERwDEXRe45LZRUbzLsIa4kV"/>
+</Ident>
+</rInstanceOf>
+</InstanceExpr>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="Code Generation Properties">
+<rDefinition R="uid:X7foyLPrtWlLFn9jJE72fqeI"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rInstanceOf>
+<Ident Name="Model Verifier">
+<rDefinition R="uid:@TTDModelVerifier@modelVerifier"/>
+</Ident>
+</rInstanceOf>
+</InstanceExpr>
+</cStereotypeInstance>
+<cClientDependency>
+<Dependency Guid="vLldSIEzUKCLzG0cyL1Hq9xV">
+<cStereotypeInstance>
+<InstanceExpr Guid="hSmelIEOQz0L8UvfULCo-4pI">
+<rInstanceOf R="uid:@Predefined@manifest"/>
+</InstanceExpr>
+</cStereotypeInstance>
+<rSupplier R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
+</Dependency>
+</cClientDependency>
+</Artifact>
 </cOwnedMember>
 <cClientDependency>
 <Dependency Guid="G5-9uIi4sRCLVZwcJEaKnkbV">

@@ -44,7 +44,7 @@ long int yPrsC_z_osek_T0_Class1[ySym_z_osek_T0_Class1+1];
 XCONST XSIGTYPE yPrsS_z_osek_T0_Class1[] = {SIGNAL_NAME(pCALL_response,
   &ySigR_pCALL_z_osek_I0_response), (XSIGTYPE)0};
 XCONST xStateIdNode yPrsT_z_osek_T0_Class1[] = {&xStartStateIdRec,
-  &yStaR_z_osek_T0E0_wait_for_calls};
+  &yStaR_z_osek_T0E0_waiting};
 static xIdNode yPrsO_z_osek_T0_Class1[] = {(xIdNode)0, (xIdNode)0};
 static XPRSNODE yPrsA_z_osek_T0_Class1 = (XPRSNODE)0;
 static XPRSNODE yPrsB_z_osek_T0_Class1 = (XPRSNODE)0;
@@ -87,13 +87,13 @@ char * yRef_z_osek_T0_Class1 (int SymbolNo, xSymbolType *SymbolType)
 {
   switch (SymbolNo) {
     case 0: *SymbolType = xsStart;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,9)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#hdr57ILPUiiLXN-bnEnX4LwE|pos(1,9)\")";
     case 1: *SymbolType = xspCALLInput;
       return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,9)\")";
     case 2: *SymbolType = xspREPLYOutput;
       return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,9)\")";
     case 3: *SymbolType = xsNextstate;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,13)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#YrFKHL8jZdeLCFccyIRMcpmI|pos(1,13)\")";
     case 4: *SymbolType = xspCALLProcedureCall;
       return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV|pos(1,9)\")";
     case 5: *SymbolType = xspCALLNextstate;
@@ -143,19 +143,19 @@ YPAD_FUNCTION(yPAD_z_osek_T0_Class1)
   switch (yVarP->RestartAddress) {
 
 /* ----- START ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,9)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdr57ILPUiiLXN-bnEnX4LwE|pos(1,9)") */
   case 0:
     BEGIN_START_TRANSITION(ySignalPar_z_osek_T0_Class1)
     XAT_FIRST_SYMBOL(0)
     XBETWEEN_SYMBOLS(3, 150)
 
-/* ----- NEXTSTATE wait_for_calls ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,13)") */
+/* ----- NEXTSTATE waiting ----- */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#YrFKHL8jZdeLCFccyIRMcpmI|pos(1,13)") */
 #ifdef XCASELABELS
   case 3:
 #endif
     XAT_LAST_SYMBOL
-    SDL_NEXTSTATE(wait_for_calls, z_osek_T0E0_wait_for_calls, "wait_for_calls")
+    SDL_NEXTSTATE(waiting, z_osek_T0E0_waiting, "waiting")
 
 /*-----
 * Implicit INPUT pCALL_response
@@ -218,22 +218,21 @@ XCONST struct xStateIdStruct yStaR_z_osek_T0_Asterisk = {xStateEC , (xIdNode)0,
   XSTA_EXTRAS};
 
 /*****
-* STATE wait_for_calls
+* STATE waiting
 * <<PACKAGE osek/PROCESS TYPE Class1>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,15)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL|pos(1,15)")
 ******/
-static XCONST xInputAction yStaH_z_osek_T0E0_wait_for_calls[] = {xInput,
-  xDiscard};
-static XCONST XINPUTREFTYPE yStaI_z_osek_T0E0_wait_for_calls[] = {1, 0};
+static XCONST xInputAction yStaH_z_osek_T0E0_waiting[] = {xInput, xDiscard};
+static XCONST XINPUTREFTYPE yStaI_z_osek_T0E0_waiting[] = {1, 0};
 #ifdef XCOVERAGE
-static long int yStaC_z_osek_T0E0_wait_for_calls[1+1];
+static long int yStaC_z_osek_T0E0_waiting[1+1];
 #endif
-XCONST struct xStateIdStruct yStaR_z_osek_T0E0_wait_for_calls = {xStateEC ,
+XCONST struct xStateIdStruct yStaR_z_osek_T0E0_waiting = {xStateEC ,
   (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_osek_T0_Class1,
-  "wait_for_calls" xIdNumber(0) XCOMMON_EXTRAS, z_osek_T0E0_wait_for_calls,
-  yStaH_z_osek_T0E0_wait_for_calls, yStaI_z_osek_T0E0_wait_for_calls, 0, 0, 0
-  xCoverage(yStaC_z_osek_T0E0_wait_for_calls), (xStateIdNode)0
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,15)\")")
+  "waiting" xIdNumber(0) XCOMMON_EXTRAS, z_osek_T0E0_waiting,
+  yStaH_z_osek_T0E0_waiting, yStaI_z_osek_T0E0_waiting, 0, 0, 0
+  xCoverage(yStaC_z_osek_T0E0_waiting), (xStateIdNode)0
+  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL|pos(1,15)\")")
   XSTA_EXTRAS};
 
 /*****
@@ -245,7 +244,7 @@ XCONST struct xStateIdStruct yStaR_z_osek_T0E0_wait_for_calls = {xStateEC ,
 long int yPrdC_z_osek_T0O0_exported_procedure_response[ySym_z_osek_T0O0_exported_procedure_response+1];
 #endif
 static XCONST xStateIdNode yPrdT_z_osek_T0O0_exported_procedure_response[] =
-  {&xStartStateIdRec, &yStaR_z_osek_T0O0E0_waitingResponse};
+  {&xStartStateIdRec, &yStaR_z_osek_T0O0E0_w};
 static xPrdNode yPrdA_z_osek_T0O0_exported_procedure_response = (xPrdNode)0;
 XCONST struct xPrdIdStruct yPrdR_z_osek_T0O0_exported_procedure_response =
   {xProcedureEC , (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_osek_T0_Class1,
@@ -309,16 +308,15 @@ YPRD_FUNCTION(z_osek_T0O0_exported_procedure_response)
 /* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#CCfFCEaSSqiL5AihhL7*zh2V|pos(1,13)") */
   case 0:
     XAT_FIRST_SYMBOL(0)
-    XBETWEEN_SYMBOLS_PRD(3, 312)
+    XBETWEEN_SYMBOLS_PRD(3, 311)
 
-/* ----- NEXTSTATE waitingResponse ----- */
+/* ----- NEXTSTATE w ----- */
 /* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#lmp86L7bBalL4OHgsIfBQmxV|pos(1,17)") */
 #ifdef XCASELABELS
   case 3:
 #endif
     XAT_LAST_SYMBOL
-    SDL_NEXTSTATE_PRD(waitingResponse, z_osek_T0O0E0_waitingResponse,
-      "waitingResponse")
+    SDL_NEXTSTATE_PRD(w, z_osek_T0O0E0_w, "w")
 
 /*-----
 * Implicit INPUT pCALL_response
@@ -330,7 +328,7 @@ YPRD_FUNCTION(z_osek_T0O0_exported_procedure_response)
     ALLOC_REPLY_SIGNAL_PRD(pREPLY_response, ySigN_pREPLY_z_osek_I0_response,
       XRPC_SENDER_IN_ALLOC_PRD, XSIGNALHEADERTYPE)
     SIGNAL_ALLOC_ERROR
-    XBETWEEN_SYMBOLS_PRD(4, 333)
+    XBETWEEN_SYMBOLS_PRD(4, 331)
 
 /*-----
 * Implicit CALL (RPC) response
@@ -345,7 +343,7 @@ YPRD_FUNCTION(z_osek_T0O0_exported_procedure_response)
     CALL_PROCEDURE_IN_PRD(z_osek_T0O0_exported_procedure_response,
       yPrdN_z_osek_T0O0_exported_procedure_response, 0, 2)
     PROCEDURE_ALLOC_ERROR_END
-    XBETWEEN_SYMBOLS_PRD(2, 348)
+    XBETWEEN_SYMBOLS_PRD(2, 346)
 
 /*-----
 * Implicit OUTPUT pREPLY_response
@@ -357,7 +355,7 @@ YPRD_FUNCTION(z_osek_T0O0_exported_procedure_response)
       pREPLY_response, ySigN_pREPLY_z_osek_I0_response,
       XRPC_SENDER_IN_OUTPUT_PRD, 0, "pREPLY_response")
     SIGNAL_ALLOC_ERROR_END
-    XBETWEEN_SYMBOLS_PRD(5, 360)
+    XBETWEEN_SYMBOLS_PRD(5, 358)
 
 /*-----
 * Implicit NEXTSTATE -
@@ -371,22 +369,20 @@ YPRD_FUNCTION(z_osek_T0O0_exported_procedure_response)
 }
 
 /*****
-* STATE waitingResponse
+* STATE w
 * <<PACKAGE osek/PROCESS TYPE Class1/PROCEDURE response>>
 * #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V|pos(1,19)")
 ******/
-static XCONST xInputAction yStaH_z_osek_T0O0E0_waitingResponse[] = {xInput,
-  xDiscard};
-static XCONST XINPUTREFTYPE yStaI_z_osek_T0O0E0_waitingResponse[] = {1, 0};
+static XCONST xInputAction yStaH_z_osek_T0O0E0_w[] = {xInput, xDiscard};
+static XCONST XINPUTREFTYPE yStaI_z_osek_T0O0E0_w[] = {1, 0};
 #ifdef XCOVERAGE
-static long int yStaC_z_osek_T0O0E0_waitingResponse[1+1];
+static long int yStaC_z_osek_T0O0E0_w[1+1];
 #endif
-XCONST struct xStateIdStruct yStaR_z_osek_T0O0E0_waitingResponse = {xStateEC ,
-  (xIdNode)0, (xIdNode)0,
-  (xIdNode)&yPrdR_z_osek_T0O0_exported_procedure_response,
-  "waitingResponse" xIdNumber(0) XCOMMON_EXTRAS, z_osek_T0O0E0_waitingResponse,
-  yStaH_z_osek_T0O0E0_waitingResponse, yStaI_z_osek_T0O0E0_waitingResponse, 0,
-  0, 0 xCoverage(yStaC_z_osek_T0O0E0_waitingResponse), (xStateIdNode)0
+XCONST struct xStateIdStruct yStaR_z_osek_T0O0E0_w = {xStateEC , (xIdNode)0,
+  (xIdNode)0, (xIdNode)&yPrdR_z_osek_T0O0_exported_procedure_response,
+  "w" xIdNumber(0) XCOMMON_EXTRAS, z_osek_T0O0E0_w, yStaH_z_osek_T0O0E0_w,
+  yStaI_z_osek_T0O0E0_w, 0, 0, 0 xCoverage(yStaC_z_osek_T0O0E0_w),
+  (xStateIdNode)0
   xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V|pos(1,19)\")")
   XSTA_EXTRAS};
 
@@ -429,8 +425,8 @@ void yInit_osek (void)
   xInsertIdNode((xIdNode)&yPrsR_z_osek_T0_Class1);
   xInsertIdNode((xIdNode)&ySigR_z_osek_T0_Class1);
   xInsertIdNode((xIdNode)&yPrdR_z_osek_T0O0_exported_procedure_response);
-  xInsertIdNode((xIdNode)&yStaR_z_osek_T0O0E0_waitingResponse);
-  xInsertIdNode((xIdNode)&yStaR_z_osek_T0E0_wait_for_calls);
+  xInsertIdNode((xIdNode)&yStaR_z_osek_T0O0E0_w);
+  xInsertIdNode((xIdNode)&yStaR_z_osek_T0E0_waiting);
   xInsertIdNode((xIdNode)&yRePR_z_osek_I0_response);
   xInsertIdNode((xIdNode)&ySigR_pCALL_z_osek_I0_response);
   xInsertIdNode((xIdNode)&ySigR_pREPLY_z_osek_I0_response);

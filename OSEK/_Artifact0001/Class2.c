@@ -23,70 +23,25 @@ static char  xFileName[] = "Class2.c";
 *************************************************************************/
 
 /*****
-* BLOCK INST Class2
+* PROCESS INST Class2
 * #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,8)")
 ******/
-extern XCONST struct xBlockIdStruct yBloR_z_Class2;
-extern XCONST xIdNode yBloP_z_Class2[];
-
-/*****
-* GATE @implicit_port_2
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#9wXJWV5SXrDL-fbZVLsroFOL|pos(1,14)")
-******/
+extern XCONST struct xPrsIdStruct yPrsR_z_Class2;
+#define yPrsN_z_Class2  (&yPrsR_z_Class2)
 #ifndef XOPTCHAN
-extern XCONST xIdNode yChaO_z0_implicit_port_2[];
-extern XCONST xIdNode yChaOR_z0_implicit_port_2[];
-extern XCONST struct xChannelIdStruct yChaR_z0_implicit_port_2;
-extern XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_2;
-#define yChaN_z0_implicit_port_2  (&yChaR_z0_implicit_port_2)
-#endif
-
-/*****
-* PROCESS INST OS
-* <<PACKAGE App/BLOCK TYPE Class2>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#xxwHGIzQcZvLSqxkDICtKVSE|pos(1,17)")
-******/
-extern XCONST struct xPrsIdStruct yPrsR_z1_OS;
-#define yPrsN_z1_OS  (&yPrsR_z1_OS)
-#ifndef XOPTCHAN
-extern XCONST xIdNode yPrsO_z1_OS[];
-#endif
-
-/*****
-* GATE @implicit_port_0
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS OS>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#5XbWgLgTbVlLeiecsV3VAvbL|pos(1,14)")
-******/
-#ifndef XOPTCHAN
-extern XCONST xIdNode yChaO_z10_implicit_port_0[];
-extern XCONST xIdNode yChaOR_z10_implicit_port_0[];
-extern XCONST struct xChannelIdStruct yChaR_z10_implicit_port_0;
-extern XCONST struct xChannelIdStruct yChaRR_z10_implicit_port_0;
-#define yChaN_z10_implicit_port_0  (&yChaR_z10_implicit_port_0)
-#endif
-
-/*****
-* PROCESS INST @part__@implicit_process_0
-* <<PACKAGE App/BLOCK TYPE Class2>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,17)")
-******/
-extern XCONST struct xPrsIdStruct yPrsR_z2_part__implicit_process_0;
-#define yPrsN_z2_part__implicit_process_0  (&yPrsR_z2_part__implicit_process_0)
-#ifndef XOPTCHAN
-extern XCONST xIdNode yPrsO_z2_part__implicit_process_0[];
+extern XCONST xIdNode yPrsO_z_Class2[];
 #endif
 
 /*****
 * GATE @implicit_port_1
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS @part__@implicit_process_0>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#T5TjNEqXTu5LXcahwEWv9kIV|pos(1,18)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#rJ58mLKBK-DLZd36bIm1ePGE|pos(1,14)")
 ******/
 #ifndef XOPTCHAN
-extern XCONST xIdNode yChaO_z20_implicit_port_1[];
-extern XCONST xIdNode yChaOR_z20_implicit_port_1[];
-extern XCONST struct xChannelIdStruct yChaR_z20_implicit_port_1;
-extern XCONST struct xChannelIdStruct yChaRR_z20_implicit_port_1;
-#define yChaN_z20_implicit_port_1  (&yChaR_z20_implicit_port_1)
+extern XCONST xIdNode yChaO_z0_implicit_port_1[];
+extern XCONST xIdNode yChaOR_z0_implicit_port_1[];
+extern XCONST struct xChannelIdStruct yChaR_z0_implicit_port_1;
+extern XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_1;
+#define yChaN_z0_implicit_port_1  (&yChaR_z0_implicit_port_1)
 #endif
 
 /*************************************************************************
@@ -98,146 +53,52 @@ extern XCONST struct xChannelIdStruct yChaRR_z20_implicit_port_1;
 ******/
 #ifndef XMULTIPLESYSTEMS
 #ifndef XOPTCHAN
-xIdNode yEnvO_env[] = {(xIdNode)&yChaR_z0_implicit_port_2,
+xIdNode yEnvO_env[] = {(xIdNode)&yChaR_z0_implicit_port_1,
   (xIdNode)0  XTRACHANNELLIST};
 #endif
 #endif
 
 /*****
-* BLOCK INST Class2
+* PROCESS INST Class2
 * #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,8)")
 ******/
-XCONST xIdNode yBloP_z_Class2[] = {(xIdNode)&yPrsR_z1_OS,
-  (xIdNode)&yPrsR_z2_part__implicit_process_0,
-  xOptChanZ((xIdNode)&yChaRR_z0_implicit_port_2)};
-static struct xBlockStruct yBloA_z_Class2 = {&yBloA_z_Class2, &yBloA_z_Class2,
-  (xBlockNode)&yBloR_z_Class2 xNrInst(0), -1};
-XCONST struct xBlockIdStruct yBloR_z_Class2 = {xBlockEC , (xIdNode)0,
+static XPRSNODE yPrsB_z_Class2 = (XPRSNODE)0;
+XCONST struct xPrsIdStruct yPrsR_z_Class2 = {xProcessEC , (xIdNode)0,
   (xIdNode)0, (xIdNode)&xSymbolTableIdRec, "Class2" xIdNumber(0)
-  XCOMMON_EXTRAS, &yBloR_z_App_Z0_Class2, yBloP_z_Class2, (xPrdIdNode *)0,
-  (xViewListRec *)0, (xViewIndexRec *)0 xNrInst(1), 1, &yBloA_z_Class2,
-  &yPrsR_z2_part__implicit_process_0 xTrace(-1) xMSCETrace(-1) xGRTrace(-1)
-  xMSCETrace(0) XBLO_EXTRAS};
-
-/*****
-* GATE @implicit_port_2
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#9wXJWV5SXrDL-fbZVLsroFOL|pos(1,14)")
-******/
-#ifndef XOPTCHAN
-static XCONST XSIGTYPE yChaS_z0_implicit_port_2[] =
-  {SIGNAL_NAME(pREPLY_response, &ySigR_pREPLY_z_osek_I0_response), (XSIGTYPE)0};
-static XCONST XSIGTYPE yChaSR_z0_implicit_port_2[] =
-  {SIGNAL_NAME(pCALL_response, &ySigR_pCALL_z_osek_I0_response), (XSIGTYPE)0};
-XCONST xIdNode yChaO_z0_implicit_port_2[] =
-  {(xIdNode)&yChaR_z10_implicit_port_0, (xIdNode)&yChaR_z20_implicit_port_1,
-  (xIdNode)0};
-XCONST xIdNode yChaOR_z0_implicit_port_2[] = {(xIdNode)&yEnvR_env, (xIdNode)0};
-XCONST struct xChannelIdStruct yChaR_z0_implicit_port_2 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yBloR_z_Class2,
-  "@implicit_port_2" xIdNumber(0) XCOMMON_EXTRAS, yChaS_z0_implicit_port_2,
-  yChaO_z0_implicit_port_2, &yChaRR_z0_implicit_port_2 XCHA_EXTRAS};
-XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_2 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yBloR_z_Class2,
-  "@implicit_port_2" xIdNumber(0) XCOMMON_EXTRAS, yChaSR_z0_implicit_port_2,
-  yChaOR_z0_implicit_port_2, &yChaR_z0_implicit_port_2 XCHA_EXTRAS};
-#endif
-
-/*****
-* PROCESS INST OS
-* <<PACKAGE App/BLOCK TYPE Class2>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#xxwHGIzQcZvLSqxkDICtKVSE|pos(1,17)")
-******/
-static XPRSNODE yPrsB_z1_OS = (XPRSNODE)0;
-XCONST struct xPrsIdStruct yPrsR_z1_OS = {xProcessEC , (xIdNode)0, (xIdNode)0,
-  (xIdNode)&yBloR_z_Class2, "OS" xIdNumber(0) XCOMMON_EXTRAS,
-  yPrsT_z_osek_T0_Class1, yPrsS_z_osek_T0_Class1 xOptChan(yPrsO_z1_OS), 0, -1
-  xNrInst(1), 1, &yPrsB_z1_OS, (xptrint)sizeof(yVDef_z_osek_T0_Class1)
-  xPrsPrioPar(xDefaultPrioProcess), (XPRSNODE *)0 xTrace(-1) xGRTrace(-1)
-  xBreakB(yRef_z_osek_T0_Class1) xBreakB(ySym_z_osek_T0_Class1) xBreakB(1)
-  xMSCETrace(-1) xCoverage(yPrsC_z_osek_T0_Class1) xCoverage(0) xCoverage(0),
-  0, 0, 0, &yPrsR_z_osek_T0_Class1, (xPrdIdNode *)0
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#xxwHGIzQcZvLSqxkDICtKVSE|pos(1,17)\")")
-  xThreadName(0) xThreadName(0) XPRS_EXTRAS(z_osek_T0_Class1)};
-static struct xRemotePrdListStruct yPrdE1_z1_OS =
-  {(xRemotePrdListNode)0, &yPrsR_z1_OS};
-#ifndef XOPTCHAN
-XCONST xIdNode yPrsO_z1_OS[] = {(xIdNode)&yChaRR_z10_implicit_port_0,
-  (xIdNode)0};
-#endif
-
-/*****
-* GATE @implicit_port_0
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS OS>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#5XbWgLgTbVlLeiecsV3VAvbL|pos(1,14)")
-******/
-#ifndef XOPTCHAN
-static XCONST XSIGTYPE yChaS_z10_implicit_port_0[] =
-  {SIGNAL_NAME(pCALL_response, &ySigR_pCALL_z_osek_I0_response), (XSIGTYPE)0};
-static XCONST XSIGTYPE yChaSR_z10_implicit_port_0[] =
-  {SIGNAL_NAME(pREPLY_response, &ySigR_pREPLY_z_osek_I0_response), (XSIGTYPE)0};
-XCONST xIdNode yChaO_z10_implicit_port_0[] = {(xIdNode)&yPrsR_z1_OS,
-  (xIdNode)0};
-XCONST xIdNode yChaOR_z10_implicit_port_0[] =
-  {(xIdNode)&yChaRR_z0_implicit_port_2, (xIdNode)&yChaR_z20_implicit_port_1,
-  (xIdNode)0};
-XCONST struct xChannelIdStruct yChaR_z10_implicit_port_0 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z1_OS,
-  "@implicit_port_0" xIdNumber(0) XCOMMON_EXTRAS, yChaS_z10_implicit_port_0,
-  yChaO_z10_implicit_port_0, &yChaRR_z10_implicit_port_0 XCHA_EXTRAS};
-XCONST struct xChannelIdStruct yChaRR_z10_implicit_port_0 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z1_OS,
-  "@implicit_port_0" xIdNumber(0) XCOMMON_EXTRAS, yChaSR_z10_implicit_port_0,
-  yChaOR_z10_implicit_port_0, &yChaR_z10_implicit_port_0 XCHA_EXTRAS};
-#endif
-
-/*****
-* PROCESS INST @part__@implicit_process_0
-* <<PACKAGE App/BLOCK TYPE Class2>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,17)")
-******/
-static XPRSNODE yPrsB_z2_part__implicit_process_0 = (XPRSNODE)0;
-XCONST struct xPrsIdStruct yPrsR_z2_part__implicit_process_0 = {xProcessEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yBloR_z_Class2, "Class2" xIdNumber(0)
-  XCOMMON_EXTRAS, yPrsT_z_App_Z0T0_implicit_process_0,
-  yPrsS_z_App_Z0T0_implicit_process_0 xOptChan(
-  yPrsO_z2_part__implicit_process_0), 0, -1 xNrInst(1), 1,
-  &yPrsB_z2_part__implicit_process_0,
-  (xptrint)sizeof(yVDef_z_App_Z0T0_implicit_process_0)
-  xPrsPrioPar(xDefaultPrioProcess), (XPRSNODE *)0 xTrace(-1) xGRTrace(-1)
-  xBreakB(yRef_z_App_Z0T0_implicit_process_0)
-  xBreakB(ySym_z_App_Z0T0_implicit_process_0) xBreakB(0) xMSCETrace(-1)
-  xCoverage(yPrsC_z_App_Z0T0_implicit_process_0) xCoverage(0) xCoverage(0), 0,
-  0, 0, &yPrsR_z_App_Z0T0_implicit_process_0, (xPrdIdNode *)0
+  XCOMMON_EXTRAS, yPrsT_z_App_T0_Class2, yPrsS_z_App_T0_Class2 xOptChan(
+  yPrsO_z_Class2), 0, -1 xNrInst(1), 1, &yPrsB_z_Class2,
+  (xptrint)sizeof(yVDef_z_App_T0_Class2) xPrsPrioPar(xDefaultPrioProcess),
+  (XPRSNODE *)0 xTrace(-1) xGRTrace(-1) xBreakB(yRef_z_App_T0_Class2)
+  xBreakB(ySym_z_App_T0_Class2) xBreakB(0) xMSCETrace(-1)
+  xCoverage(yPrsC_z_App_T0_Class2) xCoverage(0) xCoverage(0), 0, 0, 0,
+  &yPrsR_z_App_T0_Class2, (xPrdIdNode *)0
   xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,8)\")")
-  xThreadName(0) xThreadName(0) XPRS_EXTRAS(z_App_Z0T0_implicit_process_0)};
+  xThreadName(0) xThreadName(0) XPRS_EXTRAS(z_App_T0_Class2)};
 #ifndef XOPTCHAN
-XCONST xIdNode yPrsO_z2_part__implicit_process_0[] =
-  {(xIdNode)&yChaRR_z20_implicit_port_1, (xIdNode)0};
+XCONST xIdNode yPrsO_z_Class2[] = {(xIdNode)&yChaRR_z0_implicit_port_1,
+  (xIdNode)0};
 #endif
 
 /*****
 * GATE @implicit_port_1
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS @part__@implicit_process_0>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#T5TjNEqXTu5LXcahwEWv9kIV|pos(1,18)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#rJ58mLKBK-DLZd36bIm1ePGE|pos(1,14)")
 ******/
 #ifndef XOPTCHAN
-static XCONST XSIGTYPE yChaS_z20_implicit_port_1[] =
+static XCONST XSIGTYPE yChaS_z0_implicit_port_1[] =
   {SIGNAL_NAME(pREPLY_response, &ySigR_pREPLY_z_osek_I0_response), (XSIGTYPE)0};
-static XCONST XSIGTYPE yChaSR_z20_implicit_port_1[] =
+static XCONST XSIGTYPE yChaSR_z0_implicit_port_1[] =
   {SIGNAL_NAME(pCALL_response, &ySigR_pCALL_z_osek_I0_response), (XSIGTYPE)0};
-XCONST xIdNode yChaO_z20_implicit_port_1[] =
-  {(xIdNode)&yPrsR_z2_part__implicit_process_0, (xIdNode)0};
-XCONST xIdNode yChaOR_z20_implicit_port_1[] =
-  {(xIdNode)&yChaRR_z0_implicit_port_2, (xIdNode)&yChaR_z10_implicit_port_0,
+XCONST xIdNode yChaO_z0_implicit_port_1[] = {(xIdNode)&yPrsR_z_Class2,
   (xIdNode)0};
-XCONST struct xChannelIdStruct yChaR_z20_implicit_port_1 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z2_part__implicit_process_0,
-  "@implicit_port_1" xIdNumber(0) XCOMMON_EXTRAS, yChaS_z20_implicit_port_1,
-  yChaO_z20_implicit_port_1, &yChaRR_z20_implicit_port_1 XCHA_EXTRAS};
-XCONST struct xChannelIdStruct yChaRR_z20_implicit_port_1 = {xGateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z2_part__implicit_process_0,
-  "@implicit_port_1" xIdNumber(0) XCOMMON_EXTRAS, yChaSR_z20_implicit_port_1,
-  yChaOR_z20_implicit_port_1, &yChaR_z20_implicit_port_1 XCHA_EXTRAS};
+XCONST xIdNode yChaOR_z0_implicit_port_1[] = {(xIdNode)&yEnvR_env, (xIdNode)0};
+XCONST struct xChannelIdStruct yChaR_z0_implicit_port_1 = {xGateEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_Class2,
+  "@implicit_port_1" xIdNumber(0) XCOMMON_EXTRAS, yChaS_z0_implicit_port_1,
+  yChaO_z0_implicit_port_1, &yChaRR_z0_implicit_port_1 XCHA_EXTRAS};
+XCONST struct xChannelIdStruct yChaRR_z0_implicit_port_1 = {xGateEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_Class2,
+  "@implicit_port_1" xIdNumber(0) XCOMMON_EXTRAS, yChaSR_z0_implicit_port_1,
+  yChaOR_z0_implicit_port_1, &yChaR_z0_implicit_port_1 XCHA_EXTRAS};
 #endif
 
 /*************************************************************************
@@ -262,20 +123,9 @@ void yInit_Class2 (void)
   yInit_U2ctypes();
   yInit_osek();
   yInit_App();
-  xInsertIdNode((xIdNode)&yBloR_z_Class2);
+  xInsertIdNode((xIdNode)&yPrsR_z_Class2);
 #ifndef XOPTCHAN
-  xInsertIdNode((xIdNode)&yChaR_z0_implicit_port_2);
-  xInsertIdNode((xIdNode)&yChaRR_z0_implicit_port_2);
-#endif
-  xInsertIdNode((xIdNode)&yPrsR_z1_OS);
-  xInsertExportedPrd(&yPrdE1_z1_OS, &yRePR_z_osek_I0_response);
-#ifndef XOPTCHAN
-  xInsertIdNode((xIdNode)&yChaR_z10_implicit_port_0);
-  xInsertIdNode((xIdNode)&yChaRR_z10_implicit_port_0);
-#endif
-  xInsertIdNode((xIdNode)&yPrsR_z2_part__implicit_process_0);
-#ifndef XOPTCHAN
-  xInsertIdNode((xIdNode)&yChaR_z20_implicit_port_1);
-  xInsertIdNode((xIdNode)&yChaRR_z20_implicit_port_1);
+  xInsertIdNode((xIdNode)&yChaR_z0_implicit_port_1);
+  xInsertIdNode((xIdNode)&yChaRR_z0_implicit_port_1);
 #endif
 }

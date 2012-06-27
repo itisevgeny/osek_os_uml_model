@@ -35,97 +35,81 @@ XCONST struct xPackageIdStruct yPacR_z_App__App = {xPackageEC , (xIdNode)0,
   xIdNames(0) XPAC_EXTRAS};
 
 /*****
-* BLOCK TYPE Class2
+* PROCESS TYPE Class2
 * <<PACKAGE App>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,16)")
-******/
-XCONST struct xBlockIdStruct yBloR_z_App_Z0_Class2 = {xBlockTypeEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPacR_z_App__App, "Class2" xIdNumber(0)
-  XCOMMON_EXTRAS, (xBlockIdNode)0, (xIdNode *)0, (xPrdIdNode *)0,
-  (xViewListRec *)0, (xViewIndexRec *)0 xNrInst(1), 1, 0, (xPrsIdNode)0
-  xTrace(-1) xMSCETrace(-1) xGRTrace(-1) xMSCETrace(0) XBLO_EXTRAS};
-
-/*****
-* PROCESS TYPE @implicit_process_0
-* <<PACKAGE App/BLOCK TYPE Class2>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,22)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,18)")
 ******/
 #ifdef XCOVERAGE
-long int yPrsC_z_App_Z0T0_implicit_process_0[ySym_z_App_Z0T0_implicit_process_0+1];
+long int yPrsC_z_App_T0_Class2[ySym_z_App_T0_Class2+1];
 #endif
-XCONST XSIGTYPE yPrsS_z_App_Z0T0_implicit_process_0[] =
-  {SIGNAL_NAME(pREPLY_response, &ySigR_pREPLY_z_osek_I0_response), (XSIGTYPE)0};
-XCONST xStateIdNode yPrsT_z_App_Z0T0_implicit_process_0[] = {&xStartStateIdRec,
-  &yStaR_z_App_Z0T0E0_waitOsek};
-static xIdNode yPrsO_z_App_Z0T0_implicit_process_0[] = {(xIdNode)0, (xIdNode)0};
-static XPRSNODE yPrsA_z_App_Z0T0_implicit_process_0 = (XPRSNODE)0;
-static XPRSNODE yPrsB_z_App_Z0T0_implicit_process_0 = (XPRSNODE)0;
-XCONST struct xPrsIdStruct yPrsR_z_App_Z0T0_implicit_process_0 =
-  {xProcessTypeEC , (xIdNode)0, (xIdNode)0, (xIdNode)&yBloR_z_App_Z0_Class2,
-  "@implicit_process_0" xIdNumber(0) XCOMMON_EXTRAS,
-  yPrsT_z_App_Z0T0_implicit_process_0, yPrsS_z_App_Z0T0_implicit_process_0
-  xOptChan(yPrsO_z_App_Z0T0_implicit_process_0),
-  &ySigR_z_App_Z0T0_implicit_process_0, -1 xNrInst(1), 0,
-  &yPrsB_z_App_Z0T0_implicit_process_0,
-  (xptrint)sizeof(yVDef_z_App_Z0T0_implicit_process_0)
-  xPrsPrioPar(xDefaultPrioProcess), &yPrsA_z_App_Z0T0_implicit_process_0
-  xTrace(-1) xGRTrace(-1) xBreakB(yRef_z_App_Z0T0_implicit_process_0)
-  xBreakB(ySym_z_App_Z0T0_implicit_process_0) xBreakB(0) xMSCETrace(-1)
-  xCoverage(yPrsC_z_App_Z0T0_implicit_process_0) xCoverage(0) xCoverage(0),
-  yPAD_z_App_Z0T0_implicit_process_0, yFree_z_App_Z0T0_implicit_process_0,
-  yIni_z_App_Z0T0_implicit_process_0, (xPrsIdNode)0, (xPrdIdNode *)0
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,22)\")")
-  xThreadName(0) xThreadName(0) XPRS_EXTRAS(z_App_Z0T0_implicit_process_0)};
-static xSignalNode ySigA_z_App_Z0T0_implicit_process_0 = (xSignalNode)0;
-XCONST struct xSignalIdStruct ySigR_z_App_Z0T0_implicit_process_0 =
-  {xStartUpSignalEC , (xIdNode)0, (xIdNode)0, (xIdNode)&yBloR_z_App_Z0_Class2
-  xIdNames("-") xIdNumber(0) XCOMMON_EXTRAS,
-  (xptrint)sizeof(ySignalPar_z_App_Z0T0_implicit_process_0),
-  &ySigA_z_App_Z0T0_implicit_process_0, 0 xFreS(0) SIGCODE(STARTUPSIGNAL)
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,22)\")")
+XCONST XSIGTYPE yPrsS_z_App_T0_Class2[] = {SIGNAL_NAME(pREPLY_response,
+  &ySigR_pREPLY_z_osek_I0_response), (XSIGTYPE)0};
+XCONST xStateIdNode yPrsT_z_App_T0_Class2[] = {&xStartStateIdRec,
+  &yStaR_z_App_T0E0_waitOsek};
+static xIdNode yPrsO_z_App_T0_Class2[] = {(xIdNode)0, (xIdNode)0};
+static XPRSNODE yPrsA_z_App_T0_Class2 = (XPRSNODE)0;
+static XPRSNODE yPrsB_z_App_T0_Class2 = (XPRSNODE)0;
+XCONST struct xPrsIdStruct yPrsR_z_App_T0_Class2 = {xProcessTypeEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPacR_z_App__App, "Class2" xIdNumber(0)
+  XCOMMON_EXTRAS, yPrsT_z_App_T0_Class2, yPrsS_z_App_T0_Class2 xOptChan(
+  yPrsO_z_App_T0_Class2), &ySigR_z_App_T0_Class2, -1 xNrInst(1), 0,
+  &yPrsB_z_App_T0_Class2, (xptrint)sizeof(yVDef_z_App_T0_Class2)
+  xPrsPrioPar(xDefaultPrioProcess), &yPrsA_z_App_T0_Class2 xTrace(-1)
+  xGRTrace(-1) xBreakB(yRef_z_App_T0_Class2) xBreakB(ySym_z_App_T0_Class2)
+  xBreakB(0) xMSCETrace(-1) xCoverage(yPrsC_z_App_T0_Class2) xCoverage(0)
+  xCoverage(0), yPAD_z_App_T0_Class2, yFree_z_App_T0_Class2,
+  yIni_z_App_T0_Class2, (xPrsIdNode)0, (xPrdIdNode *)0
+  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,18)\")")
+  xThreadName(0) xThreadName(0) XPRS_EXTRAS(z_App_T0_Class2)};
+static xSignalNode ySigA_z_App_T0_Class2 = (xSignalNode)0;
+XCONST struct xSignalIdStruct ySigR_z_App_T0_Class2 = {xStartUpSignalEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPacR_z_App__App xIdNames("-") xIdNumber(0)
+  XCOMMON_EXTRAS, (xptrint)sizeof(ySignalPar_z_App_T0_Class2),
+  &ySigA_z_App_T0_Class2, 0 xFreS(0) SIGCODE(STARTUPSIGNAL)
+  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,18)\")")
   xSigPrioPar(xDefaultPrioSignal) ZERO_OFFSET XSIG_EXTRAS};
-XPROCESSDEF_C(implicit_process_0,
-  "implicit_process_0",z_App_Z0T0_implicit_process_0,
-  yPAD_z_App_Z0T0_implicit_process_0,yVDef_z_App_Z0T0_implicit_process_0)
-void yFree_z_App_Z0T0_implicit_process_0(void *yVarP)
+XPROCESSDEF_C(Class2,"Class2",z_App_T0_Class2,yPAD_z_App_T0_Class2,
+  yVDef_z_App_T0_Class2)
+void yFree_z_App_T0_Class2(void *yVarP)
 {
 }
-void yIni_z_App_Z0T0_implicit_process_0(xPrsNode VarP)
+void yIni_z_App_T0_Class2(xPrsNode VarP)
 {
-  yVDef_z_App_Z0T0_implicit_process_0 *yVarP = (yVDef_z_App_Z0T0_implicit_process_0 *)VarP;
+  yVDef_z_App_T0_Class2 *yVarP = (yVDef_z_App_T0_Class2 *)VarP;
+  yAssF_SDL_PId(yVarP->z_App_T0F0_OS, SDL_NULL, XASS_MR_ASS_NF);
 }
 
 /*+++++
-* GR ref function for process @implicit_process_0
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,41)")
+* GR ref function for process Class2
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,24)")
 ++++++*/
 #ifdef XBREAKBEFORE
-char * yRef_z_App_Z0T0_implicit_process_0 (int SymbolNo, xSymbolType *SymbolType)
+char * yRef_z_App_T0_Class2 (int SymbolNo, xSymbolType *SymbolType)
 {
   switch (SymbolNo) {
     case 0: *SymbolType = xsStart;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,13)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,9)\")";
     case 2: *SymbolType = xsProcedureCall;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#lMFuTISUqJlLPY4YyER8GDxE|pos(1,25)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#lMFuTISUqJlLPY4YyER8GDxE|pos(1,21)\")";
     case 3: *SymbolType = xsNextstate;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#yhoNgEnmjKLLwIvhHVzXp5QE|pos(1,17)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#yhoNgEnmjKLLwIvhHVzXp5QE|pos(1,13)\")";
     default : *SymbolType = xsNoSuchSymbolType; return "";
   }
 }
 #endif
 
 /*+++++
-* Function for process @implicit_process_0
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#o6WzcVa*xnSLitcbZI*eAPWV|pos(1,41)")
+* Function for process Class2
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V|pos(1,24)")
 ++++++*/
-YPAD_FUNCTION(yPAD_z_App_Z0T0_implicit_process_0)
+YPAD_FUNCTION(yPAD_z_App_T0_Class2)
 {
   YPAD_YSVARP
-  YPAD_YVARP(yVDef_z_App_Z0T0_implicit_process_0)
+  YPAD_YVARP(yVDef_z_App_T0_Class2)
   YPAD_TEMP_VARS
-  YPRSNAME_VAR("@implicit_process_0")
+  YPRSNAME_VAR("Class2")
 
-  BEGIN_PAD(yVDef_z_App_Z0T0_implicit_process_0)
+  BEGIN_PAD(yVDef_z_App_T0_Class2)
 #ifndef XNOPROCATSTARTUP
   {
     xPrdNode ActivePrd;
@@ -141,9 +125,9 @@ YPAD_FUNCTION(yPAD_z_App_Z0T0_implicit_process_0)
       ActivePrd = xGetActivePrd((xPrsNode)yVarP);
 #ifdef XBREAKBEFORE
       if (ActivePrd != 0) {
-        XBETWEEN_SYMBOLS(ActivePrd->RestartAddress, 144)
+        XBETWEEN_SYMBOLS(ActivePrd->RestartAddress, 128)
       } else {
-        XBETWEEN_SYMBOLS(yVarP->RestartAddress,  146)
+        XBETWEEN_SYMBOLS(yVarP->RestartAddress,  130)
       }
 #endif
     }
@@ -154,98 +138,96 @@ YPAD_FUNCTION(yPAD_z_App_Z0T0_implicit_process_0)
   switch (yVarP->RestartAddress) {
 
 /* ----- START ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,13)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV|pos(1,9)") */
   case 0:
-    BEGIN_START_TRANSITION(ySignalPar_z_App_Z0T0_implicit_process_0)
+    BEGIN_START_TRANSITION(ySignalPar_z_App_T0_Class2)
     XAT_FIRST_SYMBOL(0)
-    XBETWEEN_SYMBOLS(2, 161)
-    XBETWEEN_STMTS(2, 162)
+    XBETWEEN_SYMBOLS(2, 145)
+    XBETWEEN_STMTS(2, 146)
 
 /* ----- CALL find ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#lMFuTISUqJlLPY4YyER8GDxE|pos(1,25)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#lMFuTISUqJlLPY4YyER8GDxE|pos(1,21)") */
 #ifdef XCASELABELS
   case 2:
 #endif
-    ALLOC_PROCEDURE(z_App_Z0T0O0_find, yPrdN_z_App_Z0T0O0_find,
-      sizeof(yVDef_z_App_Z0T0O0_find))
+    ALLOC_PROCEDURE(z_App_T0O0_find, yPrdN_z_App_T0O0_find,
+      sizeof(yVDef_z_App_T0O0_find))
     PROCEDURE_ALLOC_ERROR
-    CALL_PROCEDURE(z_App_Z0T0O0_find, yPrdN_z_App_Z0T0O0_find, 0, 1)
+    CALL_PROCEDURE(z_App_T0O0_find, yPrdN_z_App_T0O0_find, 0, 1)
     PROCEDURE_ALLOC_ERROR_END
 #ifdef XCASEAFTERPRDLABELS
   case 1:
     ;
 #endif
-    XBETWEEN_SYMBOLS(3, 178)
+    XBETWEEN_SYMBOLS(3, 162)
 
 /* ----- NEXTSTATE waitOsek ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#yhoNgEnmjKLLwIvhHVzXp5QE|pos(1,17)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#yhoNgEnmjKLLwIvhHVzXp5QE|pos(1,13)") */
 #ifdef XCASELABELS
   case 3:
 #endif
     XAT_LAST_SYMBOL
-    SDL_NEXTSTATE(waitOsek, z_App_Z0T0E0_waitOsek, "waitOsek")
+    SDL_NEXTSTATE(waitOsek, z_App_T0E0_waitOsek, "waitOsek")
   default : return;
   }
 }
 
 /*****
 * STATE waitOsek
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS TYPE @implicit_process_0>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,19)")
+* <<PACKAGE App/PROCESS TYPE Class2>>
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,15)")
 ******/
-static XCONST xInputAction yStaH_z_App_Z0T0E0_waitOsek[] = {xDiscard};
-static XCONST XINPUTREFTYPE yStaI_z_App_Z0T0E0_waitOsek[] = {0};
+static XCONST xInputAction yStaH_z_App_T0E0_waitOsek[] = {xDiscard};
+static XCONST XINPUTREFTYPE yStaI_z_App_T0E0_waitOsek[] = {0};
 #ifdef XCOVERAGE
-static long int yStaC_z_App_Z0T0E0_waitOsek[0+1];
+static long int yStaC_z_App_T0E0_waitOsek[0+1];
 #endif
-XCONST struct xStateIdStruct yStaR_z_App_Z0T0E0_waitOsek = {xStateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_App_Z0T0_implicit_process_0,
-  "waitOsek" xIdNumber(0) XCOMMON_EXTRAS, z_App_Z0T0E0_waitOsek,
-  yStaH_z_App_Z0T0E0_waitOsek, yStaI_z_App_Z0T0E0_waitOsek, 0, 0, 0
-  xCoverage(yStaC_z_App_Z0T0E0_waitOsek), (xStateIdNode)0
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,19)\")")
+XCONST struct xStateIdStruct yStaR_z_App_T0E0_waitOsek = {xStateEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_App_T0_Class2,
+  "waitOsek" xIdNumber(0) XCOMMON_EXTRAS, z_App_T0E0_waitOsek,
+  yStaH_z_App_T0E0_waitOsek, yStaI_z_App_T0E0_waitOsek, 0, 0, 0
+  xCoverage(yStaC_z_App_T0E0_waitOsek), (xStateIdNode)0
+  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE|pos(1,15)\")")
   XSTA_EXTRAS};
 
 /*****
 * PROCEDURE find
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS TYPE @implicit_process_0>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,23)")
+* <<PACKAGE App/PROCESS TYPE Class2>>
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,19)")
 ******/
 #ifdef XCOVERAGE
-long int yPrdC_z_App_Z0T0O0_find[ySym_z_App_Z0T0O0_find+1];
+long int yPrdC_z_App_T0O0_find[ySym_z_App_T0O0_find+1];
 #endif
-static XCONST xStateIdNode yPrdT_z_App_Z0T0O0_find[] = {&xStartStateIdRec,
-  &yStaR_z_App_Z0T0O0E0_waiting};
-static xPrdNode yPrdA_z_App_Z0T0O0_find = (xPrdNode)0;
-XCONST struct xPrdIdStruct yPrdR_z_App_Z0T0O0_find = {xProcedureEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrsR_z_App_Z0T0_implicit_process_0,
-  "find" xIdNumber(0) XCOMMON_EXTRAS, yPrdT_z_App_Z0T0O0_find,
-  yPrsS_z_App_Z0T0_implicit_process_0, z_App_Z0T0O0_find,
-  yFree_z_App_Z0T0O0_find, (xptrint)sizeof(yVDef_z_App_Z0T0O0_find),
-  &yPrdA_z_App_Z0T0O0_find xBreakB(yRef_z_App_Z0T0O0_find)
-  xBreakB(ySym_z_App_Z0T0O0_find) xBreakB(0)
-  xCoverage(yPrdC_z_App_Z0T0O0_find), (xPrdIdNode)0, (xPrdIdNode *)0
-  XPRD_EXTRAS};
-void yFree_z_App_Z0T0O0_find(void *yVarP)
+static XCONST xStateIdNode yPrdT_z_App_T0O0_find[] = {&xStartStateIdRec,
+  &yStaR_z_App_T0O0E0_waiting};
+static xPrdNode yPrdA_z_App_T0O0_find = (xPrdNode)0;
+XCONST struct xPrdIdStruct yPrdR_z_App_T0O0_find = {xProcedureEC , (xIdNode)0,
+  (xIdNode)0, (xIdNode)&yPrsR_z_App_T0_Class2, "find" xIdNumber(0)
+  XCOMMON_EXTRAS, yPrdT_z_App_T0O0_find, yPrsS_z_App_T0_Class2,
+  z_App_T0O0_find, yFree_z_App_T0O0_find,
+  (xptrint)sizeof(yVDef_z_App_T0O0_find), &yPrdA_z_App_T0O0_find
+  xBreakB(yRef_z_App_T0O0_find) xBreakB(ySym_z_App_T0O0_find) xBreakB(0)
+  xCoverage(yPrdC_z_App_T0O0_find), (xPrdIdNode)0, (xPrdIdNode *)0 XPRD_EXTRAS};
+void yFree_z_App_T0O0_find(void *yVarP)
 {
 }
 
 /*+++++
 * GR ref function for procedure find
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,27)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,23)")
 ++++++*/
 #ifdef XBREAKBEFORE
-char * yRef_z_App_Z0T0O0_find (int SymbolNo, xSymbolType *SymbolType)
+char * yRef_z_App_T0O0_find (int SymbolNo, xSymbolType *SymbolType)
 {
   switch (SymbolNo) {
     case 0: *SymbolType = xsStart;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,17)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,13)\")";
     case 1: *SymbolType = xspREPLYInput;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,29)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,25)\")";
     case 3: *SymbolType = xsRPC;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,29)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,25)\")";
     case 4: *SymbolType = xsNextstate;
-      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#Dse2BV7VoXDLHhuj1Lo4A2gE|pos(1,21)\")";
+      return "#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#Dse2BV7VoXDLHhuj1Lo4A2gE|pos(1,17)\")";
     default : *SymbolType = xsNoSuchSymbolType; return "";
   }
 }
@@ -253,40 +235,37 @@ char * yRef_z_App_Z0T0O0_find (int SymbolNo, xSymbolType *SymbolType)
 
 /*+++++
 * Function for procedure find
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,27)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV|pos(1,23)")
 ++++++*/
-YPRD_FUNCTION(z_App_Z0T0O0_find)
+YPRD_FUNCTION(z_App_T0O0_find)
 {
   YPAD_YSVARP
-  YPRD_YVARP(yVDef_z_App_Z0T0_implicit_process_0)
-  yVDef_z_App_Z0T0O0_find * yPrdVarP;
+  YPRD_YVARP(yVDef_z_App_T0_Class2)
+  yVDef_z_App_T0O0_find * yPrdVarP;
   YPRD_TEMP_VARS
   YPRDNAME_VAR("find")
-    yPrdVarP = (yVDef_z_App_Z0T0O0_find *)xGetActivePrd((xPrsNode)yVarP);
+    yPrdVarP = (yVDef_z_App_T0O0_find *)xGetActivePrd((xPrsNode)yVarP);
 
   LOOP_LABEL_PRD
   switch (yPrdVarP->RestartAddress) {
 
 /* ----- START ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,17)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI|pos(1,13)") */
   case 0:
     XAT_FIRST_SYMBOL(0)
-    XBETWEEN_SYMBOLS_PRD(3, 274)
-    XBETWEEN_STMTS_PRD(3, 275)
+    XBETWEEN_SYMBOLS_PRD(3, 256)
+    XBETWEEN_STMTS_PRD(3, 257)
 
 /* ----- REMOTE PROCEDURE CALL response ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,29)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,25)") */
 #ifdef XCASELABELS
   case 3:
 #endif
-    ALLOC_SIGNAL(pCALL_response, ySigN_pCALL_z_osek_I0_response, TO_PROCESS(OS,
-      xPrsInst((xIdNode)yVarP->InstNameNode,(xIdNode)&yBloR_z_App_Z0_Class2,
-      yPrsE_z_App_Z0P0_OS)), XSIGNALHEADERTYPE)
+    ALLOC_SIGNAL(pCALL_response, ySigN_pCALL_z_osek_I0_response,
+      yVarP->z_App_T0F0_OS, XSIGNALHEADERTYPE)
     SIGNAL_ALLOC_ERROR
     SDL_2OUTPUT_RPC_CALL(xDefaultPrioSignal, (xIdNode *)0, pCALL_response,
-      ySigN_pCALL_z_osek_I0_response, TO_PROCESS(OS,
-      xPrsInst((xIdNode)yVarP->InstNameNode,(xIdNode)&yBloR_z_App_Z0_Class2,
-      yPrsE_z_App_Z0P0_OS)), 0, "pCALL_response")
+      ySigN_pCALL_z_osek_I0_response, yVarP->z_App_T0F0_OS, 0, "pCALL_response")
     SIGNAL_ALLOC_ERROR_END
     XAT_LAST_SYMBOL
     SDL_RPCWAIT_NEXTSTATE_PRD(ySigN_pREPLY_z_osek_I0_response, pREPLY_response,
@@ -294,43 +273,54 @@ YPRD_FUNCTION(z_App_Z0T0O0_find)
 
 /*-----
 * RPC Reply INPUT pREPLY_response
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,29)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#1IqABIux8s0L0t7XVVkzEG-E|pos(1,25)")
 ------*/
   case 1: ;
     XRPC_REPLY_INPUT_PRD
     XAT_FIRST_SYMBOL(1)
     XOS_TRACE_INPUT("pREPLY_response")
-    XBETWEEN_SYMBOLS_PRD(4, 303)
+    XBETWEEN_SYMBOLS_PRD(4, 282)
 
 /* ----- NEXTSTATE waiting ----- */
-/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Dse2BV7VoXDLHhuj1Lo4A2gE|pos(1,21)") */
+/* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Dse2BV7VoXDLHhuj1Lo4A2gE|pos(1,17)") */
 #ifdef XCASELABELS
   case 4:
 #endif
     XAT_LAST_SYMBOL
-    SDL_NEXTSTATE_PRD(waiting, z_App_Z0T0O0E0_waiting, "waiting")
+    SDL_NEXTSTATE_PRD(waiting, z_App_T0O0E0_waiting, "waiting")
   }
   XEND_PRD
 }
 
 /*****
 * STATE waiting
-* <<PACKAGE App/BLOCK TYPE Class2/PROCESS TYPE @implicit_process_0
-*     /PROCEDURE find>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,23)")
+* <<PACKAGE App/PROCESS TYPE Class2/PROCEDURE find>>
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,19)")
 ******/
-static XCONST xInputAction yStaH_z_App_Z0T0O0E0_waiting[] = {xDiscard};
-static XCONST XINPUTREFTYPE yStaI_z_App_Z0T0O0E0_waiting[] = {0};
+static XCONST xInputAction yStaH_z_App_T0O0E0_waiting[] = {xDiscard};
+static XCONST XINPUTREFTYPE yStaI_z_App_T0O0E0_waiting[] = {0};
 #ifdef XCOVERAGE
-static long int yStaC_z_App_Z0T0O0E0_waiting[0+1];
+static long int yStaC_z_App_T0O0E0_waiting[0+1];
 #endif
-XCONST struct xStateIdStruct yStaR_z_App_Z0T0O0E0_waiting = {xStateEC ,
-  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrdR_z_App_Z0T0O0_find,
-  "waiting" xIdNumber(0) XCOMMON_EXTRAS, z_App_Z0T0O0E0_waiting,
-  yStaH_z_App_Z0T0O0E0_waiting, yStaI_z_App_Z0T0O0E0_waiting, 0, 0, 0
-  xCoverage(yStaC_z_App_Z0T0O0E0_waiting), (xStateIdNode)0
-  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,23)\")")
+XCONST struct xStateIdStruct yStaR_z_App_T0O0E0_waiting = {xStateEC ,
+  (xIdNode)0, (xIdNode)0, (xIdNode)&yPrdR_z_App_T0O0_find,
+  "waiting" xIdNumber(0) XCOMMON_EXTRAS, z_App_T0O0E0_waiting,
+  yStaH_z_App_T0O0E0_waiting, yStaI_z_App_T0O0E0_waiting, 0, 0, 0
+  xCoverage(yStaC_z_App_T0O0E0_waiting), (xStateIdNode)0
+  xBreakB("#SDTREF(U2,\"u2:C:\\Documents and Settings\\Other\\Мои документы\\My Projects\\OSEK\\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV|pos(1,19)\")")
   XSTA_EXTRAS};
+
+/*****
+* DCL OS
+* <<PACKAGE App/PROCESS TYPE Class2>>
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#oSkOcEDwmGELMKBYMVxF0U1L|pos(1,13)")
+******/
+#ifndef XOPTDCL
+XCONST struct xVarIdStruct yVarR_z_App_T0F0_OS = {xVariableEC , (xIdNode)0,
+  (xIdNode)0, (xIdNode)&yPrsR_z_App_T0_Class2, "OS" xIdNumber(0)
+  XCOMMON_EXTRAS, &xSrtR_SDL_PId, (tSDLTypeInfo *)&ySDL_SDL_PId,
+  xOffsetOf(yVDef_z_App_T0_Class2, z_App_T0F0_OS), (xptrint)0, 0 XVAR_EXTRAS};
+#endif
 
 /*************************************************************************
 **                       SECTION Initialization                         **
@@ -348,10 +338,12 @@ void yInit_App (void)
   yInit_U2ExtraOps();
   yInit_U2ctypes();
   yInit_osek();
-  xInsertIdNode((xIdNode)&yBloR_z_App_Z0_Class2);
-  xInsertIdNode((xIdNode)&yPrsR_z_App_Z0T0_implicit_process_0);
-  xInsertIdNode((xIdNode)&ySigR_z_App_Z0T0_implicit_process_0);
-  xInsertIdNode((xIdNode)&yPrdR_z_App_Z0T0O0_find);
-  xInsertIdNode((xIdNode)&yStaR_z_App_Z0T0O0E0_waiting);
-  xInsertIdNode((xIdNode)&yStaR_z_App_Z0T0E0_waitOsek);
+  xInsertIdNode((xIdNode)&yPrsR_z_App_T0_Class2);
+  xInsertIdNode((xIdNode)&ySigR_z_App_T0_Class2);
+  xInsertIdNode((xIdNode)&yPrdR_z_App_T0O0_find);
+  xInsertIdNode((xIdNode)&yStaR_z_App_T0O0E0_waiting);
+  xInsertIdNode((xIdNode)&yStaR_z_App_T0E0_waitOsek);
+#ifndef XOPTDCL
+  xInsertIdNode((xIdNode)&yVarR_z_App_T0F0_OS);
+#endif
 }

@@ -73,22 +73,22 @@ typedef yVDef_z_osek_T0O0_exported_procedure_response  *yVDP_z_osek_T0O0_exporte
 extern void yFree_z_osek_T0O0_exported_procedure_response (void *);
 
 /*****
-* STATE waitingResponse
+* STATE w
 * <<PACKAGE osek/PROCESS TYPE Class1/PROCEDURE response>>
 * #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V|pos(1,19)")
 ******/
-#define z_osek_T0O0E0_waitingResponse  1
-extern XCONST struct xStateIdStruct yStaR_z_osek_T0O0E0_waitingResponse;
-#define yStaN_z_osek_T0O0E0_waitingResponse  (&yStaR_z_osek_T0O0E0_waitingResponse)
+#define z_osek_T0O0E0_w  1
+extern XCONST struct xStateIdStruct yStaR_z_osek_T0O0E0_w;
+#define yStaN_z_osek_T0O0E0_w  (&yStaR_z_osek_T0O0E0_w)
 
 /*****
-* STATE wait_for_calls
+* STATE waiting
 * <<PACKAGE osek/PROCESS TYPE Class1>>
-* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV|pos(1,15)")
+* #SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL|pos(1,15)")
 ******/
-#define z_osek_T0E0_wait_for_calls  1
-extern XCONST struct xStateIdStruct yStaR_z_osek_T0E0_wait_for_calls;
-#define yStaN_z_osek_T0E0_wait_for_calls  (&yStaR_z_osek_T0E0_wait_for_calls)
+#define z_osek_T0E0_waiting  1
+extern XCONST struct xStateIdStruct yStaR_z_osek_T0E0_waiting;
+#define yStaN_z_osek_T0E0_waiting  (&yStaR_z_osek_T0E0_waiting)
 
 /*****
 * REMOTE PROCEDURE response
