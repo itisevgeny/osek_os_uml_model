@@ -1,0 +1,100 @@
+/*#include 'u2ctypes.sdl'*/
+/*#include 'u2ExtraOps.pr'*/
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#qncAcEy-gblLR3IYQLtk1RJE")*/
+package osek;
+    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I")*/
+    process type Class1;
+    signalset;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Q4Fq0VwPQVCLGHfcELfk2SlE")*/
+        gate @implicit_port_0
+            in with ( <<package osek >> @interface_response0 );
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV")*/
+        exported as response procedure @exported_procedure_response /*#SNAME 'response'*/;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#CCfFCEaSSqiL5AihhL7*zh2V")*/
+            start;
+                /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#lmp86L7bBalL4OHgsIfBQmxV")*/
+                nextstate w;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdpcUVaVgrALkG8aHVLtzR1V")*/
+            state w;
+            
+        endprocedure;
+        
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdr57ILPUiiLXN-bnEnX4LwE")*/
+        start;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#YrFKHL8jZdeLCFccyIRMcpmI")*/
+            nextstate waiting;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL")*/
+        state waiting;
+        
+    endprocess type;
+    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV")*/
+    remote procedure response;
+    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#SjuwFEQJ9kiLSb0ZYIGEp3qV")*/
+    signallist @interface_response0 = response;
+    
+endpackage;
+
+use osek;
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#GH3ptI02T75L8NkfuLfWX0KE")*/
+package App;
+    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V")*/
+    process type Class2;
+    signalset;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#rJ58mLKBK-DLZd36bIm1ePGE")*/
+        gate @implicit_port_1
+            out with ( <<package osek >> @interface_response0 );
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#oSkOcEDwmGELMKBYMVxF0U1L")*/
+        dcl OS Pid;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#tfkItV0j--DLGKhjqL4EHZrV")*/
+        procedure find;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#4eU8ZEIKYoVLrthgyVFgywpI")*/
+            start;
+                /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#J10V4L3MwsELJ*R6MIUlPnjI")*/
+                task
+                {
+                    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#gSAycE2p0jBLPoh9QLnR*DmI")*/
+                    
+                    {
+                        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#1IqABIux8s0L0t7XVVkzEG-E")*/
+                        call response to OS;
+                    };
+                };
+                /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Dse2BV7VoXDLHhuj1Lo4A2gE")*/
+                nextstate waiting;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#UnImyLbmEg5LNqUhDLRgO*OV")*/
+            state waiting;
+            
+        endprocedure;
+        
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KHYKmLVWiBiLDpZddVNqOIgV")*/
+        start;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#Z-6FjIux4LeLr7s6zETxvi4E")*/
+            task
+            {
+                /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#fkTj-EWwrs0Lx9abiE3hKweL")*/
+                
+                {
+                    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#lMFuTISUqJlLPY4YyER8GDxE")*/
+                    call find;
+                };
+            };
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#yhoNgEnmjKLLwIvhHVzXp5QE")*/
+            nextstate waitOsek;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#VsoDDLb4nPSLw*B9bIluPZKE")*/
+        state waitOsek;
+        
+    endprocess type;
+    
+endpackage;
+
+
+use App;
+use osek;
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#7rdrCLGQK1CLhXJZSLqRIG-V")*/
+system Class2 : Class2;

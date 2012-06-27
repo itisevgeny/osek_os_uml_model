@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<u2 OMVersion="3.5" StorageVersion="4" xmlns="http://www.telelogic.com/tau">
+<Package Name="Result of C generation">
+<cOwnedMember>
+<Artifact Name="Class2.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="29">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="65">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Class2.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Class2_cod.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2_cod.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="Class2_cod.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\Class2_cod.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ctypes.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ctypes.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ctypes.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ctypes.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ExtraOps.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ExtraOps.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="U2ExtraOps.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\U2ExtraOps.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="osek.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="16">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:qncAcEy-gblLR3IYQLtk1RJE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="25">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:mhocSLnd7cSLV0eY7EFyCJ7I"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="62">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:SjuwFEQJ9kiLSb0ZYIGEp3qV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="80">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:hdpcUVaVgrALkG8aHVLtzR1V"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="89">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:KoCcuLAQ6dDLIXvjwEHVlnoL"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="98">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:SjuwFEQJ9kiLSb0ZYIGEp3qV"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="osek.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="32">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:qncAcEy-gblLR3IYQLtk1RJE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="41">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:mhocSLnd7cSLV0eY7EFyCJ7I"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="158">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:YrFKHL8jZdeLCFccyIRMcpmI"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="225">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:KoCcuLAQ6dDLIXvjwEHVlnoL"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="243">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:SjuwFEQJ9kiLSb0ZYIGEp3qV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="319">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:lmp86L7bBalL4OHgsIfBQmxV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="376">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:hdpcUVaVgrALkG8aHVLtzR1V"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="394">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:SjuwFEQJ9kiLSb0ZYIGEp3qV"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="osek.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\osek.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="App.h">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="16">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:GH3ptI02T75L8NkfuLfWX0KE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="25">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="50">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="11">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:oSkOcEDwmGELMKBYMVxF0U1L"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="61">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:tfkItV0j--DLGKhjqL4EHZrV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="79">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:H53JKLqSbHvLWQVh1VW2QCRI"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="88">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:VsoDDLb4nPSLw*B9bIluPZKE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="97">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:oSkOcEDwmGELMKBYMVxF0U1L"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.h">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="120">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7GfkHEd*cWILNQKh1EI4qmEL"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="App.c">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cImplementationFile">
+<rDefinition R="uid:@TTDFileModel@cImplementationFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="33">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:GH3ptI02T75L8NkfuLfWX0KE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="42">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7rdrCLGQK1CLhXJZSLqRIG-V"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="160">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:ulIYSILSYDvLNV8aHIa-eYqL"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="177">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:e*H-KEaCYGALk*RWWEGoPosE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="205">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:yhoNgEnmjKLLwIvhHVzXp5QE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="215">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:VsoDDLb4nPSLw*B9bIluPZKE"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="233">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:tfkItV0j--DLGKhjqL4EHZrV"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="295">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="5">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:ZqivvE-pdwFLJ3F7cE6jbv9I"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="305">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:H53JKLqSbHvLWQVh1VW2QCRI"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="323">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:oSkOcEDwmGELMKBYMVxF0U1L"/>
+</InstanceExpr>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppImport@sourceReference"/>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.c">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="file">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="352">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="line">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+</Ident>
+</rOperation>
+<cRightOperand>
+<IntegerValue ValueString="1">
+</IntegerValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="column">
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+<rElement R="uid:7GfkHEd*cWILNQKh1EI4qmEL"/>
+</InstanceExpr>
+</cHiddenStereotypeInstance>
+</Artifact>
+<Artifact Name="App.ifc">
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf>
+<Ident Name="cppHeaderFile">
+<rDefinition R="uid:@TTDFileModel@cppHeaderFile"/>
+</Ident>
+</rInstanceOf>
+<cExpression>
+<BinaryExpr>
+<rOperation>
+<Ident Name="=">
+<rDefinition R="uid:@Predefined@Collection@=@Collection@Collection@Collection"/>
+</Ident>
+</rOperation>
+<cRightOperand>
+<CharstringValue ValueString="C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\App_Artifact0002\App.ifc">
+</CharstringValue>
+</cRightOperand>
+<cLeftOperand>
+<Ident Name="path">
+<rDefinition R="uid:QVTswEuVG4ILUGbYgITVtVAL"/>
+</Ident>
+</cLeftOperand>
+</BinaryExpr>
+</cExpression>
+</InstanceExpr>
+</cStereotypeInstance>
+<cHiddenStereotypeInstance>
+</cHiddenStereotypeInstance>
+</Artifact>
+</cOwnedMember>
+<cStereotypeInstance>
+<InstanceExpr>
+<rInstanceOf R="uid:@TTDCppAppGen@GenerationResult"/>
+</InstanceExpr>
+</cStereotypeInstance>
+</Package>
+</u2>

@@ -1,0 +1,35 @@
+/*#include 'u2ctypes.sdl'*/
+/*#include 'u2ExtraOps.pr'*/
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#qncAcEy-gblLR3IYQLtk1RJE")*/
+package osek;
+    /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I")*/
+    process type Class1;
+    signalset;
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#bZ5hlVw0QVeL*JMguEqliNqV")*/
+        procedure initialize1;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#hdr57ILPUiiLXN-bnEnX4LwE")*/
+            start;
+                /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#YrFKHL8jZdeLCFccyIRMcpmI")*/
+                nextstate waiting;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#KoCcuLAQ6dDLIXvjwEHVlnoL")*/
+            state waiting;
+            
+        endprocedure;
+        
+        /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I")*/
+        start;
+            /*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I")*/
+            stop;
+        
+    endprocess type;
+    
+endpackage;
+
+
+use osek;
+use U2ctypes;
+use U2ExtraOps;
+/*#SDTREF(U2,"u2:C:\Documents and Settings\Other\Мои документы\My Projects\OSEK\osek.u2#mhocSLnd7cSLV0eY7EFyCJ7I")*/
+system Class1 : Class1;

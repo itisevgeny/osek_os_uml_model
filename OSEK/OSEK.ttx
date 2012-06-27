@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocViewStructure>
+<TabbedFrame frame_id="081FF600" ntabs="6" active="true" placement="maximized">
+<Position x="-4" y="-28"/>
+</TabbedFrame>
+<Document URL="tlog://&lt;urn:u2tauprojects:OSEK\osek.ttp&gt;:u2:cYhbMINdD-EL301joIb5wtEI">
+<Tab frame_ref="081FF600" active="false" index="1" />
+</Document>
+<Document URL="tlog://&lt;urn:u2tauprojects:OSEK\osek.ttp&gt;:u2:hXpp7VIK3hELkgF9UEeXTBvE">
+<Tab frame_ref="081FF600" active="false" index="2" />
+</Document>
+<Document URL="tlog://&lt;urn:u2tauprojects:OSEK\osek.ttp&gt;:u2:k9iK-L3HbrDL1hpjJE1YEWvL">
+<Tab frame_ref="081FF600" active="false" index="3" />
+</Document>
+<Document URL="tlog://&lt;urn:u2tauprojects:OSEK\osek.ttp&gt;:u2:vu6DwVljRDVLv9RcLLIZASiI">
+<Tab frame_ref="081FF600" active="true" index="4" />
+</Document>
+<Document URL="tlog://&lt;urn:u2tauprojects:OSEK\osek.ttp&gt;:u2:85SjgVBWaSFLx-HfrL7p58AL">
+<Tab frame_ref="081FF600" active="false" index="5" />
+</Document>
+</DocViewStructure>
